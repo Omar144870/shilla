@@ -1,6 +1,6 @@
 /* Shilla offline support: keeps the site and fonts on the phone after the first visit. */
-const VER='shilla-v5';
-const CORE=['./','./app.js?v=5','./peerjs.min.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable.png','./apple-touch-icon.png'];
+const VER='shilla-v6';
+const CORE=['./','./app.js?v=6','./peerjs.min.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable.png','./apple-touch-icon.png'];
 const FONTS='shilla-fonts';
 
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VER).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
