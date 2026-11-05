@@ -3117,6 +3117,1488 @@ Cairo to Aswan by car, roughly in km?|870
 `)};
 
 
+/* ===== v5: bigger question banks (every Arabic line has a matching English line at the same position) ===== */
+TRUTH[0].push(...L(`
+إيه أكتر حاجة بتخليك تبتسم من غير سبب؟
+لو هتسافر بكرة الصبح، هتروح فين؟
+إيه أكتر أغنية بتسمعها اليومين دول؟
+إيه أحلى هدية جاتلك في حياتك؟
+مين أكتر حد بتثق في رأيه؟
+إيه الحاجة اللي بتعملها لما تكون مضايق؟
+إيه أحلى أكلة بتعملها مامتك؟
+لو هتفتح مشروع، هيبقى إيه؟
+إيه أكتر حاجة بتحبها في الشتا؟
+إيه أكتر حاجة بتحبها في الصيف؟
+إيه أول ذكرى فاكرها من طفولتك؟
+لو هتعيش يوم في جسم حيوان، هتختار إيه؟
+إيه أكتر حاجة نفسك تشتريها دلوقتي؟
+إيه المهارة اللي نفسك تتعلمها في يوم واحد؟
+إيه أكتر ريحة بتحبها؟
+إيه أكتر لون بتلبسه؟
+بتحب تسهر ولا تنام بدري؟
+إيه أكتر فيلم كارتون بتحبه لحد النهارده؟
+لو هتختار زمن تعيش فيه، هتختار أنهي زمن؟
+إيه أحسن نصيحة اتقالتلك؟
+مين أكتر مدرس أثّر فيك؟
+إيه الحاجة اللي بتفتخر بيها في نفسك؟
+لو كسبت رحلة لأي حتة في مصر، هتختار فين؟
+إيه أكتر لعبة موبايل لعبتها؟
+إيه أكتر حاجة بتضحكك على السوشيال ميديا؟
+إيه أكتر مكان بتحس فيه بالراحة؟
+لو تقدر تتكلم لغة جديدة بكرة، هتختار أنهي لغة؟
+إيه أطول مسافة مشيتها على رجلك؟
+إيه أغرب أكلة جربتها وعجبتك؟
+إيه أكتر حاجة بتحبها في رمضان؟
+إيه أكتر حاجة بتحبها في العيد؟
+إيه أحلى يوم عدّى عليك السنة دي؟
+لو بقيت مشهور، هتبقى مشهور بإيه؟
+مين أكتر لاعب كورة بتحبه؟
+إيه نوع المزيكا اللي مستحيل تسمعه؟
+إيه الحاجة اللي لو اختفت من الدنيا هتفرح؟
+لو عندك آلة زمن، هتروح تقابل مين؟
+بتعمل إيه غالبًا في الويك إند؟
+بتحب الهدوء ولا الدوشة؟
+إيه أكتر حاجة بتأخرك الصبح؟
+إيه أول حاجة بتاخد بالك منها لما تقابل حد جديد؟
+إيه الحاجة اللي بتجمعها أو كنت بتجمعها؟
+لو هتعمل قناة يوتيوب، هتبقى عن إيه؟
+إيه أكتر كتاب أو رواية أثّرت فيك؟
+إيه أكتر حلويات بتحبها؟
+لو هتاخد معاك 3 حاجات بس في رحلة طويلة، هتاخد إيه؟
+إيه أكتر حاجة بتحبها في بيتكم؟
+إيه أصعب امتحان دخلته؟
+إيه أكتر حاجة بتحب تعملها مع صحابك؟
+لو هتدّي نفسك لقب، هيبقى إيه؟
+إيه آخر حاجة بتعملها قبل ما تنام؟
+إيه الأكلة اللي بتطلبها دايمًا لما تطلب دليفري؟
+لو اتحبست على جزيرة مع شخصية مشهورة، تختار مين؟
+إيه أكتر حاجة بتحب تتفرج عليها على يوتيوب؟
+إيه أكتر صفة بتعجبك في صحابك؟
+إيه أجمل مكان شفته بعينك؟
+لو حياتك فيلم، هيبقى اسمه إيه؟
+إيه أكتر حاجة بتحب تعملها لوحدك؟
+إيه الحيوان اللي نفسك تربيه؟
+إيه أكتر حاجة مستنيها السنة الجاية؟
+`));
+EN.TRUTH[0].push(...L(`
+What makes you smile for no reason?
+If you were traveling tomorrow morning, where would you go?
+What song have you been listening to the most lately?
+What's the best gift you've ever received?
+Whose opinion do you trust the most?
+What do you do when you're upset?
+What's the best dish your mom makes?
+If you started a business, what would it be?
+What do you love most about winter?
+What do you love most about summer?
+What's your earliest childhood memory?
+If you could live a day as an animal, which one?
+What do you want to buy most right now?
+What skill would you love to learn in a single day?
+What's your favorite smell?
+What color do you wear the most?
+Night owl or early sleeper?
+Which cartoon do you still love today?
+If you could live in any era, which would you choose?
+What's the best advice anyone gave you?
+Which teacher influenced you the most?
+What are you proud of about yourself?
+If you won a trip anywhere in Egypt, where would you go?
+Which mobile game have you played the most?
+What makes you laugh the most on social media?
+Where do you feel most at ease?
+If you could speak a new language tomorrow, which one?
+What's the longest distance you've ever walked?
+What's the weirdest food you tried and liked?
+What do you love most about Ramadan?
+What do you love most about Eid?
+What was your best day this year?
+If you became famous, what would it be for?
+Who's your favorite football player?
+What kind of music could you never listen to?
+What would you be happy to see disappear from the world?
+If you had a time machine, who would you go and meet?
+What do you usually do on weekends?
+Do you prefer quiet or noise?
+What usually makes you late in the morning?
+What's the first thing you notice when you meet someone new?
+What do you collect, or used to collect?
+If you started a YouTube channel, what would it be about?
+What book or novel affected you the most?
+What's your favorite dessert?
+If you could take only 3 things on a long trip, what would they be?
+What do you love most about your home?
+What's the hardest exam you ever took?
+What do you love doing with your friends?
+If you gave yourself a title, what would it be?
+What's the last thing you do before you sleep?
+What do you always order when you get delivery?
+If you were stuck on an island with a celebrity, who would you pick?
+What do you love watching on YouTube?
+What trait do you like most in your friends?
+What's the most beautiful place you've seen with your own eyes?
+If your life were a movie, what would it be called?
+What do you love doing alone?
+What animal would you love to keep as a pet?
+What are you most looking forward to next year?
+`));
+
+TRUTH[1].push(...L(`
+إيه أكتر حاجة بتتكسف تعملها قدام الناس؟
+عمرك اتقفشت وانت بتغني لوحدك؟
+إيه أغرب حاجة عملتها وانت نص نايم؟
+إيه آخر كدبة بيضا قلتها؟
+عمرك عملت نفسك فاهم نكتة وانت مش فاهمها؟
+إيه أكتر حاجة بتتعصب عليها من غير سبب مقنع؟
+عمرك وقّعت حاجة في مكان عام والكل بص عليك؟
+إيه أسوأ قصة شعر عملتها؟
+إيه أكتر صورة ليك نفسك تمسحها من على النت؟
+عمرك سلمت على حد وطلع حد تاني خالص؟
+إيه الحاجة اللي بتصرف عليها فلوس وبتخبيها عن أهلك؟
+عمرك نزلت من البيت ونسيت حاجة مهمة جدًا؟ إيه هي؟
+إيه أغرب حاجة بتخاف منها ومحدش يعرفها؟
+عمرك عيّطت علشان حاجة تافهة؟ إيه هي؟
+إيه الأكلة اللي بتاكلها في السر؟
+عمرك زعلت إن محدش عزمك على حاجة؟
+إيه أكتر حاجة بتعملها في الأسانسير لما تكون لوحدك؟
+عمرك اتكلمت عن حد وطلع واقف وراك؟
+إيه أوحش رسمة أو مشروع سلمته في المدرسة؟
+عمرك ضحكت لدرجة إنك عيّطت قدام ناس غريبة؟
+إيه الشخصية المشهورة اللي بتقلّدها في السر؟
+إيه أبوخ رسالة بعتّها في جروب العيلة؟
+عمرك نسيت ميعاد مهم ومحدش عرف إنك نسيته؟
+بتعمل إيه علشان تهرب من شغل البيت؟
+عمرك لبست حاجة واكتشفت إنها مقطوعة وانت برا؟
+عمرك دخلت مكان غلط وعملت نفسك عارف انت فين؟
+إيه الحاجة اللي بتدوّر عليها في جوجل كل شوية؟
+عمرك اتصلت برقم غلط وكمّلت المكالمة؟
+إيه أسوأ أكلة طبختها؟
+عمرك فضلت تكلم حد ساعة كاملة وانت مش فاكر اسمه؟
+إيه أكتر حاجة بتخبيها في موبايلك عن صحابك؟
+عمرك اتقفشت وانت بتكلم نفسك قدام المراية؟
+بتعمل إيه علشان تبان مشغول؟
+إيه أطول مدة قعدتها من غير ما تستحمى؟
+عمرك أكلت أكل حد وقلت إنه مش انت؟
+إيه أبوخ لقب صحابك سمّوك بيه؟
+عمرك نمت في فرح أو عزومة؟
+إيه أكتر موقف حسيت فيه إنك عايز الأرض تنشق وتبلعك؟
+عمرك نزّلت بوست وندمت ومسحته بعد دقيقة؟
+عمرك اتخانقت مع حد على كرسي في المواصلات؟
+إيه الحاجة اللي بتشتريها ومبتستخدمهاش؟
+عمرك دفعت فلوس في حاجة ونسيتها خالص؟
+إيه أكتر حاجة بتبالغ فيها في السي في أو الانترفيو؟
+عمرك قلت لحد إن أكله حلو وهو وحش؟
+إيه العادة الوحشة اللي مش قادر تبطلها؟
+عمرك اتخضيت من حاجة وطلعت تافهة؟ احكي.
+عمرك خبطت حد من غير قصد بالباب أو بالشنطة؟
+إيه أغرب حاجة بتعملها لما تكون متوتر؟
+عمرك حلفت إنك عملت حاجة وانت معملتهاش؟
+إيه الغلطة الإملائية اللي بتغلطها على طول؟
+عمرك نسيت اسم حد قريب منك قدامه؟
+عمرك اتصورت صورة ومثّلت إنك مبسوط وانت مضايق؟
+إيه أكتر حاجة بتحسد صحابك عليها على السوشيال؟
+عمرك سرقت حاجة صغيرة وانت عيل؟ إيه هي؟
+إيه أغرب حاجة دفعت فيها فلوس؟
+عمرك اتأخرت على امتحان؟
+عمرك عملت نفسك بتذاكر وانت بتلعب على الموبايل؟
+إيه الحاجة اللي بتنساها على طول؟
+عمرك قلت سر حد من غير قصد؟
+إيه أحرج حاجة حصلتلك في مكالمة فيديو؟
+`));
+EN.TRUTH[1].push(...L(`
+What are you too shy to do in front of people?
+Have you ever been caught singing alone?
+What's the weirdest thing you've done while half asleep?
+What's the last white lie you told?
+Have you ever pretended to get a joke you didn't?
+What do you get angry about for no good reason?
+Have you ever dropped something in public and everyone stared?
+What's the worst haircut you've ever had?
+Which photo of you would you love to delete from the internet?
+Have you ever greeted someone who turned out to be a total stranger?
+What do you spend money on and hide from your family?
+Have you ever left home forgetting something very important? What?
+What's a weird fear you have that nobody knows about?
+Have you ever cried over something silly? What?
+What food do you eat in secret?
+Have you ever been upset that nobody invited you to something?
+What do you do in the elevator when you're alone?
+Have you ever talked about someone who turned out to be standing behind you?
+What's the worst drawing or project you handed in at school?
+Have you ever laughed so hard you cried in front of strangers?
+Which celebrity do you secretly imitate?
+What's the lamest message you've sent to the family group?
+Have you ever forgotten an important appointment and nobody found out?
+What do you do to escape housework?
+Have you ever worn something and discovered it was torn while you were out?
+Have you ever walked into the wrong place and pretended you knew where you were?
+What do you google over and over?
+Have you ever called the wrong number and kept the call going?
+What's the worst thing you've ever cooked?
+Have you ever talked to someone for an hour without remembering their name?
+What do you hide on your phone from your friends?
+Have you ever been caught talking to yourself in the mirror?
+What do you do to look busy?
+What's the longest you've gone without showering?
+Have you ever eaten someone's food and said it wasn't you?
+What's the silliest nickname your friends gave you?
+Have you ever fallen asleep at a wedding or a dinner party?
+When did you most wish the ground would swallow you?
+Have you ever posted something and deleted it a minute later out of regret?
+Have you ever fought with someone over a seat on public transport?
+What do you buy and never use?
+Have you ever paid for something and completely forgot about it?
+What do you exaggerate on your CV or in interviews?
+Have you ever told someone their food was good when it wasn't?
+What bad habit can't you quit?
+Have you ever been scared by something that turned out silly? Tell us.
+Have you ever accidentally hit someone with a door or a bag?
+What weird thing do you do when you're nervous?
+Have you ever sworn you did something you didn't?
+What spelling mistake do you always make?
+Have you ever forgotten a close person's name in front of them?
+Have you ever posed happy in a photo while you were upset?
+What do you envy your friends for on social media?
+Did you ever steal something small as a kid? What?
+What's the weirdest thing you've paid money for?
+Have you ever been late for an exam?
+Have you ever pretended to study while playing on your phone?
+What do you forget all the time?
+Have you ever spilled someone's secret by accident?
+What's the most embarrassing thing that happened to you on a video call?
+`));
+
+TRUTH[2].push(...L(`
+إيه أكتر حاجة خايف تفشل فيها؟
+مين في الشلة لو زعل منك هتزعل أوي؟
+إيه الكلمة اللي قالها حد هنا وفضلت في دماغك؟
+عمرك حسيت إنك مش مرحّب بيك في الشلة؟ إمتى؟
+إيه الحاجة اللي نفسك أهلك يعرفوها عنك ومش قادر تقولها؟
+مين في الشلة شايف إنه بيتغير للأوحش؟
+إيه أكبر كدبة قلتها لأهلك ولسه مكمّلة؟
+مين هنا بتحس إنه بيقلّدك؟
+لو هتحكي سرك لحد من الشلة، مين؟ ومين مستحيل؟
+إمتى آخر مرة حسيت إنك وحيد بجد؟
+عمرك اتمنيت تبقى حد تاني؟ مين؟
+مين في الشلة هزاره بيضايقك؟
+إيه أكتر حاجة ندمان إنك قلتها لحد هنا؟
+مين في الشلة حاسس إنه مش مقدّرك كفاية؟
+إيه أكتر حاجة بتغير منها في حياة حد تعرفه؟
+عمرك اتكلمت وحش عن الشلة قدام حد برا الشلة؟
+مين في الشلة حاسس إنك لسه مش عارفه كويس؟
+إيه الصفة اللي خايف تكون واخدها من أهلك؟
+إيه القرار اللي أخدته علشان ترضي حد وندمت عليه؟
+عمرك كنت السبب في خناقة بين اتنين؟ احكي.
+مين في الشلة شايفه بيعرف يكدب كويس؟
+إيه الحاجة اللي بتعملها وحاسس إنها مش صح بس مكمّل؟
+عمرك قريت رسايل حد من وراه؟ مين؟
+مين هنا حاسس إنه بيحكم عليك؟
+لو حد هنا حكالك سر خطير عن حد تاني هنا، هتعمل إيه؟
+إيه أكتر موقف حسيت فيه إنك جبان؟
+مين في الشلة نفسك تبقى قريب منه أكتر؟
+إيه أكتر حاجة بتخبيها عن أقرب صاحب ليك؟
+عمرك حسيت إن حد هنا بيستخدمك علشان مصلحة؟
+إيه الحاجة اللي لو الشلة عرفتها عنك هتتصدم؟
+عمرك قلت لحد هنا إنك مشغول وانت فاضي بس مش عايز تشوفه؟
+مين في الشلة لو اتجوز هتحس إنك خسرته؟
+في إيه بتقارن نفسك بحد هنا؟
+عمرك فرحت في سرك لما حد هنا حصلّه حاجة وحشة؟
+إيه أكتر نقد اتقالك ولسه زعلان منه؟
+مين في الشلة بيتكلم كتير ومبيعملش حاجة؟
+إيه أكتر حاجة بتكرهها في شغلك أو دراستك ومبتقولهاش؟
+لو تقدر تمسح يوم من حياتك، هتمسح أنهي يوم؟
+إيه أكتر حاجة حاسس إن أهلك ظلموك فيها؟
+مين في الشلة خد منك حاجة ومرجّعهاش؟
+عمرك عملت حاجة علشان تثبت لحد هنا إنك أحسن منه؟
+إيه أكتر حاجة قلقان منها في المستقبل؟
+مين هنا كان أول انطباع ليك عنه غلط خالص؟ وكان إيه؟
+عمرك اتعمّدت متردش على حد هنا؟ ليه؟
+إيه الحاجة اللي لسه مش قادر تسامح نفسك عليها؟
+مين في الشلة لو بقى مشهور هيتغير علينا؟
+إيه أكتر كلمة بتجرحك لو اتقالتلك؟
+عمرك حسيت إنك بتمثّل إنك مبسوط وسط الشلة؟
+مين في الشلة شايف إن ذوقه في اللبس وحش؟
+إيه أكتر حاجة نفسك تغيرها في شكلك؟
+عمرك نقلت كلام من حد هنا لحد تاني هنا؟
+مين هنا لو طلب منك خدمة كبيرة هتتهرب منه؟
+إيه أكتر حاجة حاسس إنها ناقصة في حياتك دلوقتي؟
+إيه الحاجة اللي نفسك الشلة تعملها علشانك ومش بتعملها؟
+لو هتقول «أنا آسف» لحد هنا دلوقتي، هتقولها لمين وليه؟
+`));
+EN.TRUTH[2].push(...L(`
+What are you most afraid of failing at?
+Who in the group would hurt you most if they got upset with you?
+What did someone here say that stuck in your head?
+Have you ever felt unwelcome in the group? When?
+What do you wish your family knew about you but can't tell them?
+Who in the group do you think is changing for the worse?
+What's the biggest lie you told your family that's still going?
+Who here do you feel copies you?
+If you had to tell your secret to someone here, who? And who never?
+When did you last feel truly lonely?
+Have you ever wished you were someone else? Who?
+Whose jokes in the group bother you?
+What do you regret saying to someone here?
+Who in the group do you feel doesn't appreciate you enough?
+What are you jealous of in the life of someone you know?
+Have you ever spoken badly about the group to someone outside it?
+Who in the group do you feel you still don't really know?
+Which trait are you afraid you got from your family?
+What decision did you make to please someone and then regret?
+Have you ever caused a fight between two people? Tell us.
+Who in the group do you think is a good liar?
+What are you doing that you feel isn't right but keep doing?
+Have you ever read someone's messages behind their back? Whose?
+Who here do you feel judges you?
+If someone here told you a serious secret about someone else here, what would you do?
+When did you feel like a coward?
+Who in the group do you wish you were closer to?
+What do you hide from your closest friend?
+Have you ever felt someone here was using you for something?
+What would shock the group if they found out about you?
+Have you ever told someone here you were busy when you just didn't want to see them?
+Who in the group would you feel you lost if they got married?
+In what way do you compare yourself to someone here?
+Have you ever been secretly glad when something bad happened to someone here?
+What criticism are you still upset about?
+Who in the group talks a lot and does nothing?
+What do you hate about your work or studies but never say?
+If you could erase one day from your life, which day?
+Where do you feel your family treated you unfairly?
+Who in the group took something from you and never returned it?
+Have you ever done something to prove you're better than someone here?
+What worries you most about the future?
+Who here did you completely misjudge at first? What did you think?
+Have you ever ignored someone here on purpose? Why?
+What can you still not forgive yourself for?
+Who in the group would change toward us if they became famous?
+What word hurts you most if someone says it to you?
+Have you ever felt you were faking being happy with the group?
+Who in the group do you think has bad taste in clothes?
+What would you most like to change about your looks?
+Have you ever passed on something someone here said to someone else here?
+Who here would you dodge if they asked you for a big favor?
+What do you feel is missing in your life right now?
+What do you wish the group did for you but doesn't?
+If you had to say "I'm sorry" to someone here right now, who and why?
+`));
+
+TRUTH[3].push(...L(`
+بتعمل إيه لما تكون معجب بحد؟
+عمرك كنت معجب بحد قريب من حد في الشلة؟
+مين في الشلة شايفه هيبقى شريك حياة كويس؟
+رد فعلك بيبقى إيه لما حد يقولك إنه معجب بيك؟
+عمرك اتعلقت بحد من الرسايل بس من غير ما تقابله؟
+إيه أهم حاجة بتدوّر عليها في شريك حياتك؟
+عمرك كتبت شعر أو خاطرة لحد؟ لمين؟
+مين أول حد بييجي في بالك لما تسمع أغنية رومانسية؟
+عمرك رحت مكان «بالصدفة» علشان تشوف حد معين؟
+إيه أطول مكالمة عملتها مع حد عاجبك؟
+إيه أكتر كلمة نفسك تسمعها من اللي بتحبه؟
+عمرك غيرت طريقة لبسك علشان حد؟
+عمرك حبيت حد أكبر منك بكتير؟
+لو الكراش بتاعك شافك دلوقتي، أول حاجة هتعملها إيه؟
+إيه العلامة اللي بتخليك تعرف إن حد معجب بيك؟
+عمرك طلبت من صاحبك يكلم حد علشانك؟
+إيه أكتر حاجة رومانسية نفسك حد يعملها علشانك؟
+عمرك احتفظت بحاجة من حد كنت بتحبه؟ إيه هي؟
+مين آخر حد كلمك وفرحت إنه كلمك؟
+عمرك نزّلت ستوري علشان حد معين يعلّق عليها؟
+عمرك خبيت عن صحابك إنك مرتبط؟
+لو خرجت مع حد من الشلة أول خروجة، هتوديه فين؟
+إيه الصفة اللي ممكن تخليك تسيب حد بتحبه؟
+عمرك حبيت حد من طرف واحد مدة طويلة؟ قد إيه؟
+إيه أكتر حاجة اتعلمتها من آخر علاقة؟
+عمرك اتخانقت مع حد بتحبه على حاجة تافهة جدًا؟
+مين في الشلة شايفه أكتر واحد رومانسي؟
+مين في الشلة شايف إنه مستحيل يحب؟
+عمرك رفضت حد وبعدين ندمت؟
+إيه أغرب مكان اتعرفت فيه على حد عجبك؟
+عمرك حلمت إنك متجوز حد معين؟ مين؟
+عمرك اتكسفت تقول لأهلك إنك معجب بحد؟
+نفسك تتجوز وانت عندك كام سنة؟ وليه؟
+لو حد هنا طلب يخرج معاك، توافق؟
+إيه أحلى رسالة رومانسية جاتلك؟
+عمرك بعتّ رسالة للكراش وعملت نفسك بعتها بالغلط؟
+عمرك اتعلقت بشخصية في مسلسل أو فيلم زيادة عن اللزوم؟ مين؟
+إيه أكتر حاجة بتعجبك في شكل اللي بتحبه؟
+عمرك سبت حد علشان أهلك مش موافقين؟
+مين في الشلة هيتجوز عن حب، ومين هيتجوز صالونات؟
+عمرك كنت بتكلم حد ومحدش في الشلة كان يعرف؟
+إيه أكتر حاجة اتغيرت فيك بعد ما حبيت؟
+عمرك فضلت صاحي طول الليل مستني رسالة من حد؟
+لو هتبعت رسالة واحدة للكراش دلوقتي، هتقول فيها إيه؟
+إيه الغلطة اللي عملتها في الحب ومش هتكررها تاني؟
+`));
+EN.TRUTH[3].push(...L(`
+What do you do when you have a crush on someone?
+Have you ever liked someone close to someone in the group?
+Who in the group would make a great life partner?
+How do you react when someone tells you they like you?
+Have you ever gotten attached to someone just from texting, without meeting?
+What's the most important thing you look for in a partner?
+Have you ever written a poem or a note for someone? Who?
+Who's the first person you think of when you hear a romantic song?
+Have you ever "accidentally" showed up somewhere just to see someone?
+What's the longest call you've had with someone you liked?
+What do you most want to hear from the person you love?
+Have you ever changed how you dress for someone?
+Have you ever liked someone much older than you?
+If your crush saw you right now, what's the first thing you'd do?
+What sign tells you someone likes you?
+Have you ever asked a friend to talk to someone for you?
+What's the most romantic thing you wish someone would do for you?
+Have you ever kept something from someone you loved? What?
+Who's the last person who texted you and made you happy?
+Have you ever posted a story so a certain person would comment?
+Have you ever hidden a relationship from your friends?
+If you went on a first date with someone from the group, where would you take them?
+What trait could make you leave someone you love?
+Have you ever loved someone one-sidedly for a long time? How long?
+What did you learn from your last relationship?
+Have you ever fought with someone you love over something really silly?
+Who in the group do you think is the most romantic?
+Who in the group do you think could never fall in love?
+Have you ever turned someone down and later regretted it?
+What's the weirdest place you met someone you liked?
+Have you ever dreamed you were married to someone specific? Who?
+Have you ever been too shy to tell your family you liked someone?
+At what age would you like to get married? Why?
+If someone here asked you out, would you say yes?
+What's the sweetest romantic message you've ever received?
+Have you ever texted your crush and pretended it was by mistake?
+Have you ever gotten too attached to a TV or movie character? Who?
+What do you like most about how the person you love looks?
+Have you ever left someone because your family didn't approve?
+Who in the group will marry for love, and who will have an arranged marriage?
+Have you ever been talking to someone without anyone in the group knowing?
+What changed in you after you fell in love?
+Have you ever stayed up all night waiting for someone's message?
+If you could send your crush one message right now, what would it say?
+What mistake in love will you never repeat?
+`));
+
+DARE[0].push(...L(`
+قلّد صوت شخصية كرتون والشلة تخمّن مين.
+اعمل نفسك مرشد سياحي واشرح الأوضة اللي انتوا فيها.
+اتكلم وانت ماسك مناخيرك لحد دورك الجاي.
+اعمل 15 بطن دلوقتي.
+اعمل وش زعلان وفرحان ومتخض ورا بعض بسرعة.
+غنّي أغنية أطفال بصوت تخين وجد جدًا.
+امشي زي عارض أزياء لآخر الأوضة.
+اعمل حوار بين إيدك اليمين وإيدك الشمال.
+قول «أنا بحب الشلة» بخمس لغات أو لهجات.
+اوصف اللي على شمالك كأنه منتج بتبيعه.
+اعمل صوت 3 حيوانات ورا بعض.
+ارسم حاجة وانت مغمّض والشلة تخمّن هي إيه.
+قول عكس كل حاجة تقصدها لحد دورك الجاي.
+اخترع حركة رقص والكل لازم يقلّدها.
+مثّل من غير كلام حاجة بتعملها كل يوم والشلة تخمّن.
+`));
+EN.DARE[0].push(...L(`
+Imitate a cartoon character's voice and let the group guess who.
+Be a tour guide and present the room you're in.
+Talk while holding your nose until your next turn.
+Do 15 sit-ups right now.
+Make a sad, a happy and a shocked face in quick succession.
+Sing a kids' song in a very deep, serious voice.
+Catwalk like a model to the end of the room.
+Act out a conversation between your right and left hands.
+Say "I love this group" in five languages or accents.
+Describe the person on your left as if you're selling them.
+Make the sounds of 3 animals in a row.
+Draw something with your eyes closed and let the group guess.
+Say the opposite of everything you mean until your next turn.
+Invent a dance move and everyone must copy it.
+Mime something you do every day and let the group guess.
+`));
+DARE[1].push(...L(`
+ابعت لآخر حد في سجل المكالمات «انت بتحب البطاطس؟» ومتشرحش.
+خلّي الشلة تختارلك إيموجي وابعته لـ 3 ناس.
+اقرا آخر 3 حاجات في النوتس بتاعتك.
+قلّد طريقة مشي حد في الشلة.
+حاول تبيع موبايلك لحد هنا في دقيقة.
+اللي على يمينك يختار كلمة ولازم تقولها في كل جملة لحد دورك الجاي.
+اعرض آخر فيديو صورته.
+اتصل بأي حد واسأله سؤال من الكويز.
+اسكت خالص لحد دورك الجاي.
+خلّي الشلة تغيرلك خلفية الموبايل لمدة ساعة.
+ادّي كل واحد هنا لقب جديد.
+اعمل فويس بتقلّد فيه مذيع راديو وابعته لجروب الشلة.
+اعرض الإيموجيز اللي بتستخدمها أكتر حاجة.
+اعمل انترفيو تلفزيوني مع حد هنا عن حياته.
+وري الشلة أغرب حاجة في شنطتك أو جيبك.
+`));
+EN.DARE[1].push(...L(`
+Text the last person in your call log "do you like potatoes?" and don't explain.
+Let the group pick an emoji and send it to 3 people.
+Read the last 3 things in your notes app.
+Imitate how someone in the group walks.
+Try to sell your phone to someone here in one minute.
+The person on your right picks a word you must use in every sentence until your next turn.
+Show the last video you recorded.
+Call anyone and ask them a trivia question.
+Stay completely silent until your next turn.
+Let the group change your phone wallpaper for an hour.
+Give everyone here a new nickname.
+Record a voice note as a radio host and send it to the group chat.
+Show the emojis you use the most.
+Interview someone here about their life like a TV host.
+Show the group the weirdest thing in your bag or pocket.
+`));
+DARE[2].push(...L(`
+ابعت لأقدم شات عندك «فاكرني؟».
+خلّي الشلة تختار صورة من الجاليري تنزل ستوري 30 دقيقة.
+اقرا آخر 5 حاجات دوّرت عليها في يوتيوب.
+اتصل بحد من العيلة وقوله نكتة.
+قول لكل واحد هنا أول انطباع أخدته عنه.
+ادّي موبايلك لحد هنا يبعت ستيكر لأي شات يختاره.
+اعرض آخر 10 صور في الجاليري من غير ما تعدّي حاجة.
+ابعت لحد بقالك كتير مكلمتوش «عامل إيه؟ وحشتني».
+قول لكل واحد هنا بجد حاجة بتضايقك فيه.
+خلّي الشلة تكتب بوست وانزله وسيبه ساعة.
+اتصل برقم تختاره الشلة من الكونتاكتس وقول «أنا جاي حالًا».
+اعرض أقدم ستوري أو بوست ليك.
+شغّل آخر فويس جالك بصوت عالي.
+اعترف بحاجة عملتها لحد هنا ومحدش عرفها.
+خلّي الشلة تختار حد تبعتله رسالة مدح طويلة.
+`));
+EN.DARE[2].push(...L(`
+Send "remember me?" to your oldest chat.
+Let the group pick a gallery photo to post as a story for 30 minutes.
+Read out your last 5 YouTube searches.
+Call a family member and tell them a joke.
+Tell everyone here your first impression of them.
+Let someone here send a sticker to any chat they choose.
+Show the last 10 photos in your gallery without skipping any.
+Text someone you haven't talked to in ages "how are you? I miss you".
+Honestly tell everyone here something that bothers you about them.
+Let the group write a post, publish it, and leave it for an hour.
+Call a contact the group picks and say "I'm coming right now".
+Show your oldest story or post.
+Play the last voice note you received out loud.
+Confess something you did to someone here that nobody knew.
+Let the group pick someone to send a long compliment to.
+`));
+DARE[3].push(...L(`
+قول أحلى حاجة في كل واحد هنا كأنك بتكتب جواب حب.
+ابعت للكراش ستيكر قلب واستنى الرد.
+مثّل مشهد طلب جواز قدام الشلة مع كرسي.
+اقرا آخر رسالة بعتّها لحد عاجبك (اللي تسمح بيه).
+خلّي الشلة تختار أغنية رومانسية وأهديها لحد هنا.
+قول اسم الإكس واحكي أحلى ذكرى معاه في 30 ثانية.
+ابعت لحد تختاره الشلة «انت دايمًا على بالي».
+مثّل أول مقابلة مع الكراش وحد من الشلة يمثّل دوره.
+اعرض آخر صورة اتصورتها مع حد بتحبه.
+اوصف شريك حياتك المثالي في دقيقة.
+خلّي الشلة تكتبلك بايو رومانسي وسيبه لحد بكرة.
+قول أحرج اسم دلع ممكن تنادي بيه اللي بتحبه.
+اكتب بيتين غزل لحد في الشلة وقولهم وانت باصصله.
+غنّي أغنية حب قديمة كأنك على المسرح.
+قول للي على يمينك 3 حاجات حلوة في شكله.
+`));
+EN.DARE[3].push(...L(`
+Tell everyone here their best quality as if writing a love letter.
+Send your crush a heart sticker and wait for a reply.
+Act out a marriage proposal to a chair in front of the group.
+Read the last message you sent to someone you like (what you allow).
+Let the group pick a romantic song and dedicate it to someone here.
+Say your ex's name and share your best memory with them in 30 seconds.
+Text someone the group picks "you're always on my mind".
+Act out a first meeting with your crush; someone from the group plays them.
+Show the last photo you took with someone you love.
+Describe your ideal partner in one minute.
+Let the group write you a romantic bio and keep it until tomorrow.
+Say the most embarrassing pet name you'd call your partner.
+Write two romantic lines for someone in the group and recite them looking at them.
+Sing an old love song like you're on stage.
+Tell the person on your right 3 nice things about their looks.
+`));
+
+NEVER[0].push(...L(`
+أنا عمري ما رجعت البيت مخصوص علشان نسيت موبايلي.
+أنا عمري ما ركبت قطر نوم.
+أنا عمري ما زرعت حاجة بإيدي.
+أنا عمري ما سهرت لحد الفجر بتفرج على مسلسل.
+أنا عمري ما نطيت في البحر من على مركب.
+أنا عمري ما خبزت كيكة لوحدي.
+أنا عمري ما حضرت حفلة لمطرب.
+أنا عمري ما بت ليلة في المستشفى.
+أنا عمري ما صبغت شعري.
+أنا عمري ما شجعت في الاستاد.
+أنا عمري ما اتصورت مع حيوان غريب.
+أنا عمري ما طلعت فوق جبل.
+أنا عمري ما صحيت ومكنتش عارف أنا فين.
+أنا عمري ما كسبت مسابقة.
+أنا عمري ما صحيت مخصوص علشان أتفرج على الشروق.
+`));
+EN.NEVER[0].push(...L(`
+Never have I ever gone back home just because I forgot my phone.
+Never have I ever taken a sleeper train.
+Never have I ever grown a plant myself.
+Never have I ever stayed up till dawn watching a show.
+Never have I ever jumped into the sea from a boat.
+Never have I ever baked a cake by myself.
+Never have I ever been to a singer's concert.
+Never have I ever spent a night in hospital.
+Never have I ever dyed my hair.
+Never have I ever cheered at a stadium.
+Never have I ever taken a photo with an exotic animal.
+Never have I ever climbed a mountain.
+Never have I ever woken up not knowing where I was.
+Never have I ever won a competition.
+Never have I ever woken up early just to watch the sunrise.
+`));
+NEVER[1].push(...L(`
+أنا عمري ما عملت نفسي مش سامع حد بينادي عليا.
+أنا عمري ما مسحت صورة علشان مجابتش لايكات كفاية.
+أنا عمري ما قلت إني قريت كتاب وأنا مقريتهوش.
+أنا عمري ما بصيت في شنطة حد من وراه.
+أنا عمري ما لبست هدوم حد من غير ما أستأذن.
+أنا عمري ما زعلت إن محدش شاف الستوري بتاعتي.
+أنا عمري ما نسيت حد مستنيني في مكان.
+أنا عمري ما اتخانقت مع حد على أكل.
+أنا عمري ما كدبت وقلت إن النت فاصل عندي.
+أنا عمري ما ضحكت على حد وقع.
+أنا عمري ما خدت آخر حتة أكل من غير ما أسأل.
+أنا عمري ما زعقت لحد في التليفون.
+أنا عمري ما سمعت فويس ونسيت أرد عليه خالص.
+أنا عمري ما قلبت على حد في نص الهزار.
+أنا عمري ما حلفت إني هصحى بدري وكمّلت نوم.
+`));
+EN.NEVER[1].push(...L(`
+Never have I ever pretended not to hear someone calling me.
+Never have I ever deleted a photo because it didn't get enough likes.
+Never have I ever claimed to have read a book I never read.
+Never have I ever looked inside someone's bag behind their back.
+Never have I ever worn someone's clothes without asking.
+Never have I ever been upset that nobody watched my story.
+Never have I ever forgotten someone waiting for me somewhere.
+Never have I ever fought with someone over food.
+Never have I ever lied that my internet was down.
+Never have I ever laughed at someone who fell.
+Never have I ever taken the last piece of food without asking.
+Never have I ever yelled at someone on the phone.
+Never have I ever listened to a voice note and never replied.
+Never have I ever snapped at someone in the middle of a joke.
+Never have I ever sworn I'd wake up early and kept sleeping.
+`));
+NEVER[2].push(...L(`
+أنا عمري ما حسيت إن حد هنا بياخد مكاني.
+أنا عمري ما خبيت عن الشلة إني زعلان.
+أنا عمري ما قلت رأيي في حد هنا لحد تاني هنا.
+أنا عمري ما ندمت إني عرفت حد هنا.
+أنا عمري ما اتمنيت إن حد هنا ميجيش الخروجة.
+أنا عمري ما عملت نفسي مش شايف رسالة حد هنا.
+أنا عمري ما حسيت إن صاحبي بيكدب عليا وسكت.
+أنا عمري ما خرجت مع حد علشان مصلحة بس.
+أنا عمري ما عملت نفسي ضحية وأنا الغلطان.
+أنا عمري ما زعلت من نجاح صاحب ليا.
+أنا عمري ما اتكلمت وحش عن حد وبعدين صاحبته.
+أنا عمري ما اتخانقت مع أهلي بسبب صحابي.
+أنا عمري ما خليت حد يستناني وأنا قاصد.
+أنا عمري ما فكرت أقطع حد هنا.
+أنا عمري ما حسيت إن الشلة بتتكلم عليا.
+`));
+EN.NEVER[2].push(...L(`
+Never have I ever felt someone here was taking my place.
+Never have I ever hidden from the group that I was upset.
+Never have I ever shared my opinion of someone here with someone else here.
+Never have I ever regretted getting to know someone here.
+Never have I ever wished someone here wouldn't come to a hangout.
+Never have I ever pretended not to see a message from someone here.
+Never have I ever felt my friend was lying to me and stayed quiet.
+Never have I ever hung out with someone only for my own benefit.
+Never have I ever played the victim when I was the one at fault.
+Never have I ever felt bad about a friend's success.
+Never have I ever badmouthed someone and later became their friend.
+Never have I ever fought with my family because of my friends.
+Never have I ever kept someone waiting on purpose.
+Never have I ever thought about cutting someone here off.
+Never have I ever felt the group was talking about me.
+`));
+NEVER[3].push(...L(`
+أنا عمري ما بعتّ رسالة رومانسية لحد غلط.
+أنا عمري ما اتعلقت بحد من أول مكالمة.
+أنا عمري ما خرجت مع حد من غير ما أقول لأهلي.
+أنا عمري ما كتبت اسم حد بحبه في كشكول.
+أنا عمري ما غيرت رأيي في حد بعد أول خروجة.
+أنا عمري ما اتصلت بحد وقفلت أول ما رد.
+أنا عمري ما اتشديت لحد علشان شكله بس.
+أنا عمري ما عملت نفسي مش مهتم علشان أشوف رد فعله.
+أنا عمري ما حكيت لأهلي عن حد بحبه.
+أنا عمري ما اتعرفت على حد في فرح.
+أنا عمري ما خليت صاحبي يكتبلي الرد على الكراش.
+أنا عمري ما حلمت بالإكس.
+أنا عمري ما فضلت سهران أستنى حد يرد عليا.
+أنا عمري ما احتفظت بهدية من الإكس.
+أنا عمري ما ندمت إني اعترفت لحد بمشاعري.
+`));
+EN.NEVER[3].push(...L(`
+Never have I ever sent a romantic message to the wrong person.
+Never have I ever fallen for someone on the first call.
+Never have I ever gone out with someone without telling my family.
+Never have I ever written the name of someone I liked in a notebook.
+Never have I ever changed my mind about someone after the first date.
+Never have I ever called someone and hung up as soon as they answered.
+Never have I ever been drawn to someone only for their looks.
+Never have I ever acted uninterested just to see their reaction.
+Never have I ever told my family about someone I liked.
+Never have I ever met someone special at a wedding.
+Never have I ever had a friend write my reply to my crush.
+Never have I ever dreamed about my ex.
+Never have I ever stayed up waiting for someone to reply.
+Never have I ever kept a gift from an ex.
+Never have I ever regretted confessing my feelings to someone.
+`));
+
+MOST[0].push(...L(`
+مين فينا هيألّف كتاب؟
+مين فينا حافظ كل الأغاني القديمة؟
+مين فينا هيبقى دكتور مشهور؟
+مين فينا ضحكته أعلى واحدة؟
+مين فينا هيكسب اليانصيب ويضيّع الفلوس؟
+مين فينا أشطر واحد في الرسم؟
+مين فينا هيعيش في الريف؟
+مين فينا أكتر واحد بيحب الأطفال؟
+مين فينا هيفتح مطعم؟
+مين فينا بينام أول واحد في السهرة؟
+مين فينا أحسن واحد بيدّي نصايح؟
+مين فينا هيتعلم لغة جديدة السنة دي؟
+مين فينا أكتر واحد بيحب المغامرات؟
+مين فينا هيبقى بطل في الألعاب الإلكترونية؟
+مين فينا فاكر عيد ميلاد الكل؟
+`));
+EN.MOST[0].push(...L(`
+Who's most likely to write a book?
+Who knows all the old songs by heart?
+Who's most likely to become a famous doctor?
+Who has the loudest laugh?
+Who's most likely to win the lottery and blow it all?
+Who's the best at drawing?
+Who's most likely to end up living in the countryside?
+Who loves kids the most?
+Who's most likely to open a restaurant?
+Who falls asleep first at a sleepover?
+Who gives the best advice?
+Who's most likely to learn a new language this year?
+Who loves adventures the most?
+Who's most likely to become a gaming champion?
+Who remembers everyone's birthday?
+`));
+MOST[1].push(...L(`
+مين فينا أكتر واحد بيشتكي؟
+مين فينا بيقلب أي خروجة نكد؟
+مين فينا يعمل نفسه نايم علشان ميقومش يعمل حاجة؟
+مين فينا بيسرق أكل من طبق الباقيين؟
+مين فينا بيعيد نفس الحكاية ألف مرة؟
+مين فينا أونلاين على طول ومبيردش؟
+مين فينا هيتوه في المول؟
+مين فينا بيعمل من الحبة قبة؟
+مين فينا بيقول «آخر مرة» ويرجع يعملها؟
+مين فينا بيفتي في كل حاجة؟
+مين فينا عنده عذر لكل حاجة؟
+مين فينا يزعل لو خسر في الكوتشينة؟
+مين فينا بيعيّط من الإعلانات؟
+مين فينا بيطلب أكل ومبياكلوش؟
+مين فينا هينسى شنطته في التاكسي؟
+`));
+EN.MOST[1].push(...L(`
+Who complains the most?
+Who turns any hangout gloomy?
+Who'd fake sleeping to avoid doing chores?
+Who steals food from others' plates?
+Who tells the same story a thousand times?
+Who's always online but never replies?
+Who's most likely to get lost in the mall?
+Who makes a mountain out of a molehill?
+Who says "last time" and does it again?
+Who has an opinion on everything?
+Who has an excuse for everything?
+Who'd be upset losing at cards?
+Who cries at commercials?
+Who orders food and doesn't eat it?
+Who's most likely to leave their bag in a taxi?
+`));
+MOST[2].push(...L(`
+مين فينا أكتر واحد بيحب يتحكم؟
+مين فينا بيقول الكلام اللي الناس عايزة تسمعه وبس؟
+مين فينا ممكن يقلب علينا علشان مصلحة؟
+مين فينا بيزعل ومبيقولش؟
+مين فينا أكتر واحد بيحب يتمنظر قدام الناس؟
+مين فينا ممكن يسيب الشلة لو لقى شلة أحسن؟
+مين فينا بيحسد الباقيين في سره؟
+مين فينا أكتر واحد بيلوم غيره؟
+مين فينا مبيوفيش بوعوده؟
+مين فينا بيعمل نفسه مشغول علشان يبان مهم؟
+مين فينا بيحكي أسرار الناس؟
+مين فينا بيستغل طيبة الباقيين؟
+مين فينا أكتر واحد بوشين؟
+مين فينا بيقلل من نجاح غيره؟
+مين فينا بيختفي وقت الجد؟
+`));
+EN.MOST[2].push(...L(`
+Who's the most controlling?
+Who only says what people want to hear?
+Who'd turn on us for personal gain?
+Who gets upset and never says so?
+Who loves showing off the most?
+Who'd leave the group if they found a better one?
+Who secretly envies the others?
+Who blames others the most?
+Who doesn't keep their promises?
+Who pretends to be busy to look important?
+Who spills other people's secrets?
+Who takes advantage of the others' kindness?
+Who's the most two-faced?
+Who downplays others' success?
+Who vanishes when things get serious?
+`));
+MOST[3].push(...L(`
+مين فينا هيحب من أول نظرة؟
+مين فينا بيكتب رسايل رومانسية طويلة؟
+مين فينا هيتجوز الأول من غير ما يقولنا؟
+مين فينا عنده أكتر معجبين؟
+مين فينا بيحب في السر؟
+مين فينا هيعمل خطوبة أسطورية؟
+مين فينا بيحب الشخص الغلط على طول؟
+مين فينا هيحب حد من بلد تانية؟
+مين فينا بيرد على الكراش في ثانية؟
+مين فينا هيسامح الإكس بسرعة؟
+مين فينا بيتكسف يقول «بحبك»؟
+مين فينا هيبقى أحسن جوز أو زوجة؟
+مين فينا بيربط كل أغنية بحد بيحبه؟
+مين فينا هيطلب الجواز قدام الناس؟
+مين فينا بيحب الرومانسية بتاعة الأفلام؟
+`));
+EN.MOST[3].push(...L(`
+Who's most likely to fall in love at first sight?
+Who writes long romantic messages?
+Who's most likely to get married first without telling us?
+Who has the most admirers?
+Who loves in secret?
+Who's most likely to throw a legendary engagement party?
+Who always falls for the wrong person?
+Who's most likely to fall for someone from another country?
+Who replies to their crush within a second?
+Who's most likely to forgive their ex quickly?
+Who's too shy to say "I love you"?
+Who'd make the best husband or wife?
+Who connects every song to someone they love?
+Who's most likely to propose in public?
+Who loves movie-style romance?
+`));
+
+RATHER[0].push(...LP(`
+تعيش في بيت على النيل|تعيش في بيت على البحر
+تاكل فطير مشلتت|تاكل كنافة
+تتكلم بالفصحى على طول|تغني كل كلامك
+تبقى أسرع واحد في العالم|تبقى أقوى واحد في العالم
+تشوف في الضلمة|تسمع من بعيد أوي
+تقضي يوم في الملاهي|تقضي يوم في متحف
+تركب منطاد|تركب غواصة
+تعرف تطبخ أي أكلة|تعرف تصلّح أي حاجة
+تعيش في قصر قديم|تعيش في شقة حديثة
+عصير قصب|سوبيا
+تفتكر كل حاجة|تنسى أي حاجة وحشة
+تبقى رسام مشهور|تبقى مغني مشهور
+`));
+EN.RATHER[0].push(...LP(`
+Live in a house on the Nile|Live in a house by the sea
+Eat feteer meshaltet|Eat kunafa
+Always speak super formally|Sing everything you say
+Be the fastest person in the world|Be the strongest person in the world
+See in the dark|Hear from very far away
+Spend a day at a theme park|Spend a day at a museum
+Ride a hot-air balloon|Ride a submarine
+Be able to cook any dish|Be able to fix anything
+Live in an old palace|Live in a modern apartment
+Sugarcane juice|Sobia
+Remember everything|Forget anything bad
+Be a famous painter|Be a famous singer
+`));
+RATHER[1].push(...LP(`
+تغني في فرح قدام 500 واحد|ترقص في الشارع لوحدك
+أسبوع من غير شاي وقهوة|أسبوع من غير حلويات
+تنسى اسمك|تنسى أسامي صحابك
+مديرك يشوف الستوريز بتاعتك|أهلك يقروا جروب الشلة
+تتزحلق في فرح|تتزحلق في الشغل
+تقول كل اللي في دماغك يوم كامل|متتكلمش خالص يوم كامل
+تروح الشغل بالبيجامة|تروح البحر بالبدلة
+تضحك في كل موقف جد|تعيّط في كل موقف هزار
+صوتك يبقى رفيع جدًا|صوتك يبقى تخين جدًا
+تعيش من غير مراية|تعيش من غير كاميرا
+تتوه في الصحرا|تتوه في مدينة مش عارف لغتها
+تدفع حساب الشلة في كل خروجة|تغسل الأطباق بعد كل عزومة
+`));
+EN.RATHER[1].push(...LP(`
+Sing at a wedding in front of 500 people|Dance alone in the street
+A week without tea and coffee|A week without sweets
+Forget your own name|Forget your friends' names
+Your boss sees your stories|Your family reads the group chat
+Slip and fall at a wedding|Slip and fall at work
+Say everything on your mind for a whole day|Not speak at all for a whole day
+Go to work in pajamas|Go to the beach in a suit
+Laugh at every serious moment|Cry at every funny moment
+Have a very squeaky voice|Have a very deep voice
+Live without mirrors|Live without cameras
+Get lost in the desert|Get lost in a city whose language you don't speak
+Pay the group's bill every hangout|Wash the dishes after every dinner party
+`));
+RATHER[2].push(...LP(`
+تعرف مين بيتكلم عليك|تعرف بيقولوا إيه من غير أسامي
+تسامح صاحب كدب عليك|تبعد عنه وتنساه
+تخسر صاحب عمرك|تخسر سنة من عمرك
+الشلة تختارلك شغلك|أهلك يختارولك شريك حياتك
+تعرف حقيقة كل الناس|محدش يعرف حقيقتك
+تبقى أذكى واحد ووحيد|تبقى عادي ومحبوب
+تعيش أوحش يوم في حياتك تاني|تنسى أحلى يوم في حياتك
+تقول لصاحبك إن اللي معاه بيخونه|تسكت
+تنجح وأهلك مش فخورين بيك|تبقى عادي وأهلك فخورين بيك
+تعيش لوحدك في بلد غريبة|تفضل في مكانك ومش مبسوط
+تقول سر أعز صاحب ليك|تقول أكبر سر ليك
+تتخانق مع أهلك|تتخانق مع الشلة
+`));
+EN.RATHER[2].push(...LP(`
+Know who talks about you|Know what's said but not who said it
+Forgive a friend who lied to you|Walk away and forget them
+Lose your lifelong friend|Lose a year of your life
+The group chooses your job|Your family chooses your partner
+Know everyone's true self|Nobody ever knows your true self
+Be the smartest and lonely|Be average and loved
+Relive the worst day of your life|Forget the best day of your life
+Tell your friend their partner is cheating|Stay quiet
+Succeed but your parents aren't proud|Be ordinary and your parents are proud
+Live alone in a foreign country|Stay where you are and be unhappy
+Reveal your best friend's secret|Reveal your own biggest secret
+Fight with your family|Fight with the group
+`));
+RATHER[3].push(...LP(`
+أول خروجة في مطعم فخم|أول خروجة على عربية فول
+اللي بتحبه يبعتلك رسايل طويلة|يكلمك فيديو كل يوم
+تتجوز اللي بتحبه وتعيش بعيد|تتجوز حد عادي جنب أهلك
+الكراش يكون صاحبك المقرب|الكراش يكون حد في الشغل
+تعترف بحبك في رسالة|تعترف وش لوش
+اللي بتحبه يبقى هادي جدًا|اللي بتحبه يبقى مجنون جدًا
+فرح كبير|فرح صغير في البيت
+تحب حد بيضحّكك|تحب حد بيفهمك
+الإكس يرجع يعتذر|تقابله صدفة وهو مبسوط مع حد تاني
+تتجوز صاحب طفولتك|تتجوز حد قابلته من شهر
+اللي بتحبه يكتبلك شعر|اللي بتحبه يطبخلك أكلة
+تستنى حد سنة كاملة|تبدأ مع حد جديد على طول
+`));
+EN.RATHER[3].push(...LP(`
+First date at a fancy restaurant|First date at a foul cart
+Your partner sends you long texts|Your partner video-calls you every day
+Marry the one you love and live far away|Marry someone ordinary near your family
+Your crush is your best friend|Your crush is a coworker
+Confess your love by text|Confess face to face
+Your partner is very calm|Your partner is very wild
+A big wedding|A small wedding at home
+Love someone who makes you laugh|Love someone who understands you
+Your ex comes back to apologize|You bump into them happy with someone else
+Marry your childhood friend|Marry someone you met a month ago
+Your partner writes you poetry|Your partner cooks you a meal
+Wait a whole year for someone|Start with someone new right away
+`));
+
+QUIP.push(...L(`
+أوحش اسم لأبلكيشن تعارف
+أغرب سبب ممكن تتخانق عليه مع جارك
+لو القهوة بتتكلم، هتقولك إيه الصبح؟
+اسم فيلم رعب عن الامتحانات
+أوحش حاجة تتبعت في جروب الشغل بالغلط
+اختراع يخلّي الصحيان بدري أسهل
+أغرب حاجة ممكن تلاقيها في جيب جدك
+الإعلان الصريح لأي شامبو
+اسم علمي لمرض «مش قادر أصحى»
+لو التوكتوك ليه مشاعر، بيحلم بإيه؟
+أسوأ نصيحة لحد رايح انترفيو
+السبب الحقيقي إن الشراب بيختفي في الغسالة
+الرسالة اللي الواي فاي بيقولها وهو بيفصل
+أغرب طلب ممكن السواق يطلبه منك
+شعار إعلان لمحل فول
+أوحش مكان تقضي فيه شهر العسل
+لو الشلة دي مسلسل رمضان، اسمه إيه؟
+أول حاجة هتعملها لو بقيت مخفي يوم
+تعليق المعلق لما حد في الشلة يتكعبل
+الرسالة اللي قطتك هتبعتهالك وانت برا
+`));
+EN.QUIP.push(...L(`
+Worst name for a dating app
+Weirdest reason to fight with your neighbor
+If coffee could talk, what would it tell you in the morning?
+Title of a horror movie about exams
+Worst thing to send to the work group by mistake
+An invention that makes waking up early easier
+Weirdest thing you could find in your grandpa's pocket
+The brutally honest ad for any shampoo
+Scientific name for "can't wake up" syndrome
+If tuk-tuks had feelings, what would they dream about?
+Worst advice for someone going to a job interview
+The real reason socks vanish in the washing machine
+What the Wi-Fi says as it disconnects
+Weirdest request a driver could make
+Slogan for a foul shop ad
+Worst place to spend a honeymoon
+If this group were a Ramadan series, what would it be called?
+First thing you'd do if you were invisible for a day
+The commentator's line when someone in the group trips
+The text your cat would send you while you're out
+`));
+
+KNOW.push(...LP(`
+بحب أقضي الإجازة الصيفي إزاي؟|على البحر|بسافر|بنام|بشتغل
+بحب أطبخ ولا آكل بس؟|بحب أطبخ|آكل بس|الاتنين|ولا ده ولا ده
+بصحى إزاي؟|من أول منبه|بعد 5 منبهات|حد بيصحيني|من غير منبه
+أكتر وجبة بحبها في اليوم؟|الفطار|الغدا|العشا|التسالي
+لو عندي قوة خارقة؟|الطيران|الاختفاء|قراية الأفكار|السفر في الزمن
+أكتر حاجة بتعصبني في الموبايل؟|الشحن|النت|الإشعارات|المساحة
+بحب المفاجآت؟|بموت فيها|بتوترني|حسب المفاجأة|بكرهها
+في الصور أنا؟|بحب أتصور|بتصور غصب عني|أنا اللي بصوّر|بهرب
+أكتر مكان بحب أقعد فيه في البيت؟|أوضتي|الصالة|البلكونة|المطبخ
+بلبس إيه في الخروج؟|كاجوال|شيك|رياضي|أي حاجة
+لو هشتري عربية؟|رياضية|عربية عيلة|جيب|موتوسيكل
+أنا في الامتحانات؟|بذاكر بدري|ليلة الامتحان|على الحظ|بنام
+أكتر حاجة بحبها في الخروجة؟|الأكل|الكلام|التصوير|المشي
+بشرب الشاي إزاي؟|سكر كتير|سكر خفيف|من غير سكر|مبشربش شاي
+لو هعيش في مدينة تانية في مصر؟|إسكندرية|الأقصر|دهب|الغردقة
+`));
+EN.KNOW.push(...LP(`
+How do I like to spend the summer holiday?|At the beach|Traveling|Sleeping|Working
+Do I like cooking or just eating?|I love cooking|Just eating|Both|Neither
+How do I wake up?|First alarm|After 5 alarms|Someone wakes me|No alarm
+My favorite meal of the day?|Breakfast|Lunch|Dinner|Snacks
+If I had a superpower?|Flying|Invisibility|Mind reading|Time travel
+What annoys me most about my phone?|Battery|Internet|Notifications|Storage
+Do I like surprises?|Love them|They stress me|Depends on the surprise|Hate them
+In photos, I…?|Love posing|Pose reluctantly|Take the photos|Run away
+My favorite spot at home?|My room|Living room|Balcony|Kitchen
+What do I wear going out?|Casual|Smart|Sporty|Anything
+If I bought a car?|Sports car|Family car|SUV|Motorbike
+In exams, I…?|Study early|Cram the night before|Rely on luck|Sleep
+What I love most about hangouts?|Food|Talking|Photos|Walking
+How do I take my tea?|Lots of sugar|A little sugar|No sugar|I don't drink tea
+If I lived in another Egyptian city?|Alexandria|Luxor|Dahab|Hurghada
+`));
+
+DRAW[0].push(...L(`
+قلم
+شوكة
+مقص
+نحلة
+فراشة
+حلزونة
+أرنب
+تاج
+صاروخ
+جزرة
+`));
+EN.DRAW[0].push(...L(`
+Pen
+Fork
+Scissors
+Bee
+Butterfly
+Snail
+Rabbit
+Crown
+Rocket
+Carrot
+`));
+DRAW[1].push(...L(`
+عربية إسعاف
+عربية مطافي
+كشك
+فلوكة
+مرجيحة
+ساقية
+طاولة زهر
+بنك
+مطبخ
+ملعب
+`));
+EN.DRAW[1].push(...L(`
+Ambulance
+Fire truck
+Kiosk
+Felucca
+Swing
+Waterwheel
+Backgammon
+Bank
+Kitchen
+Stadium
+`));
+DRAW[2].push(...L(`
+الأمل
+الغضب
+الطموح
+المستقبل
+الطفولة
+الذكريات
+الندم
+الشجاعة
+الامتحان الشفوي
+الصحيان بدري
+`));
+EN.DRAW[2].push(...L(`
+Hope
+Anger
+Ambition
+The future
+Childhood
+Memories
+Regret
+Courage
+Oral exam
+Waking up early
+`));
+
+TABOO[0].push(...LP(`
+كرسي|قعدة|ترابيزة|خشب|رجول
+بيض|فراخ|فطار|أبيض|صفار
+شنطة|مدرسة|كتب|سفر|ضهر
+قمر|ليل|سما|نجوم|بدر
+موز|أصفر|فاكهة|قرد|قشر
+جزمة|رجل|لبس|شراب|كوتشي
+لبن|بقرة|أبيض|شرب|ببرونة
+عيش|فرن|رغيف|دقيق|ساندوتش
+باب|مفتاح|يفتح|يقفل|أوضة
+مخدة|نوم|سرير|راس|ريش
+`));
+EN.TABOO[0].push(...LP(`
+Chair|Sit|Table|Wood|Legs
+Egg|Chicken|Breakfast|White|Yolk
+Bag|School|Books|Travel|Back
+Moon|Night|Sky|Stars|Full
+Banana|Yellow|Fruit|Monkey|Peel
+Shoe|Foot|Wear|Socks|Sneaker
+Milk|Cow|White|Drink|Bottle
+Bread|Oven|Loaf|Flour|Sandwich
+Door|Key|Open|Close|Room
+Pillow|Sleep|Bed|Head|Feathers
+`));
+TABOO[1].push(...LP(`
+تريند|سوشيال|فيديو|انتشار|تيك توك
+حمام سباحة|مية|عوم|نادي|صيف
+فيسبوك|بوست|لايك|صفحة|أزرق
+سحور|رمضان|فجر|فول|مسحراتي
+تذكرة|سينما|ماتش|قطر|حجز
+كاتشب|طماطم|أحمر|بطاطس|صوص
+أوبر|عربية|أبلكيشن|سواق|توصيل
+مايوه|بحر|عوم|صيف|لبس
+كوتشينة|ورق|لعب|شايب|جوكر
+بالونة|نفخ|عيد ميلاد|هوا|تفرقع
+`));
+EN.TABOO[1].push(...LP(`
+Trend|Social|Video|Viral|TikTok
+Swimming pool|Water|Swim|Club|Summer
+Facebook|Post|Like|Page|Blue
+Suhoor|Ramadan|Dawn|Foul|Drummer
+Ticket|Cinema|Match|Train|Book
+Ketchup|Tomato|Red|Fries|Sauce
+Uber|Car|App|Driver|Ride
+Swimsuit|Sea|Swim|Summer|Wear
+Cards|Paper|Play|King|Joker
+Balloon|Blow|Birthday|Air|Pop
+`));
+TABOO[2].push(...LP(`
+الخيال|تخيّل|أحلام|واقع|عقل
+الشجاعة|جبان|خوف|بطل|جريء
+الكسل|نوم|شغل|تعبان|مش عايز
+الذكريات|زمان|صور|ماضي|فاكر
+الاحترام|أدب|الكبير|احترم|ذوق
+الصداع|راس|وجع|برشام|دوشة
+الانتظار|استنى|طابور|وقت|ملل
+المفاجأة|اتخضيت|هدية|مش متوقع|عيد ميلاد
+الصمت|ساكت|كلام|هدوء|صوت
+الندم|غلط|آسف|زعل|يا ريت
+`));
+EN.TABOO[2].push(...LP(`
+Imagination|Imagine|Dreams|Reality|Mind
+Courage|Coward|Fear|Hero|Brave
+Laziness|Sleep|Work|Tired|Lazy
+Memories|Past|Photos|Remember|Old days
+Respect|Polite|Elders|Manners|Respectful
+Headache|Head|Pain|Pills|Noise
+Waiting|Wait|Queue|Time|Bored
+Surprise|Shocked|Gift|Unexpected|Birthday
+Silence|Quiet|Talk|Calm|Sound
+Regret|Mistake|Sorry|Sad|If only
+`));
+
+QUIZ[0].push(...LP(`
+عاصمة إيطاليا؟|روما|ميلانو|فينيسيا|نابولي
+شهر فبراير في السنة العادية فيه كام يوم؟|28|29|30|31
+مين اللي بيتقال عليه ملك الغابة؟|الأسد|النمر|الفيل|الدب
+فريق الكورة الطايرة فيه كام لاعب في الملعب؟|6|5|7|11
+أكبر مدينة في مصر في عدد السكان؟|القاهرة|الإسكندرية|بورسعيد|المنصورة
+النحل بيعمل إيه؟|عسل|سكر|حرير|لبن
+عاصمة الإمارات؟|أبوظبي|دبي|الشارقة|العين
+أنهي كوكب مشهور بالحلقات اللي حواليه؟|زحل|المريخ|عطارد|الزهرة
+المثلث ليه كام ضلع؟|3|4|5|6
+علم مصر فيه كام لون أساسي؟|3|2|4|5
+أنهي حيوان بيتنفس بالخياشيم؟|السمكة|الدولفين|الحوت|الفقمة
+الماية بتتلج على كام درجة مئوية؟|0|10|-10|4
+أنهي عضو في الجسم بيضخ الدم؟|القلب|الرئة|الكبد|المعدة
+عاصمة اليابان؟|طوكيو|أوساكا|كيوتو|هيروشيما
+أسرع طائر في العالم وهو بينقض؟|الصقر الشاهين|النعامة|النسر|الحمامة
+`));
+EN.QUIZ[0].push(...LP(`
+What is the capital of Italy?|Rome|Milan|Venice|Naples
+How many days does February have in a normal year?|28|29|30|31
+Which animal is called the king of the jungle?|Lion|Tiger|Elephant|Bear
+How many volleyball players per team are on court?|6|5|7|11
+Egypt's largest city by population?|Cairo|Alexandria|Port Said|Mansoura
+What do bees make?|Honey|Sugar|Silk|Milk
+What is the capital of the UAE?|Abu Dhabi|Dubai|Sharjah|Al Ain
+Which planet is famous for its rings?|Saturn|Mars|Mercury|Venus
+How many sides does a triangle have?|3|4|5|6
+How many main colors are on Egypt's flag?|3|2|4|5
+Which animal breathes through gills?|Fish|Dolphin|Whale|Seal
+At what temperature (°C) does water freeze?|0|10|-10|4
+Which organ pumps blood around the body?|Heart|Lungs|Liver|Stomach
+What is the capital of Japan?|Tokyo|Osaka|Kyoto|Hiroshima
+The fastest bird in the world when diving?|Peregrine falcon|Ostrich|Eagle|Pigeon
+`));
+QUIZ[1].push(...LP(`
+مين كتب رواية «اللص والكلاب»؟|نجيب محفوظ|يوسف إدريس|إحسان عبد القدوس|توفيق الحكيم
+أم كلثوم كان لقبها إيه؟|كوكب الشرق|العندليب|الهضبة|الزعيم
+أطول نهر في العالم حسب أغلب المصادر؟|النيل|الأمازون|اليانغتسي|المسيسيبي
+عاصمة إسبانيا؟|مدريد|برشلونة|إشبيلية|فالنسيا
+مين المشهور إنه اخترع التليفون؟|جراهام بيل|إديسون|تسلا|ماركوني
+فريق كورة اليد فيه كام لاعب في الملعب؟|7|6|5|11
+العنصر اللي رمزه O؟|الأكسجين|الدهب|الأوزميوم|الأوزون
+مين أول رئيس لجمهورية مصر؟|محمد نجيب|جمال عبد الناصر|أنور السادات|سعد زغلول
+مكتبة الإسكندرية الجديدة اتفتحت سنة كام؟|2002|1995|2010|1988
+أطول حيوان في العالم؟|الزرافة|الفيل|الجمل|النعامة
+عاصمة ألمانيا؟|برلين|ميونخ|هامبورج|فرانكفورت
+مين رسم لوحة «ليلة النجوم»؟|فان جوخ|بيكاسو|مونيه|دالي
+الضوء بياخد قد إيه تقريبًا علشان يوصل من الشمس للأرض؟|8 دقايق|8 ثواني|ساعة|يوم
+أعلى جبل في إفريقيا؟|كليمنجارو|جبل كينيا|جبال الأطلس|سانت كاترين
+أول دولة عربية تنظم كأس العالم؟|قطر|المغرب|السعودية|مصر
+`));
+EN.QUIZ[1].push(...LP(`
+Who wrote the novel "The Thief and the Dogs"?|Naguib Mahfouz|Yusuf Idris|Ihsan Abdel Quddous|Tawfiq al-Hakim
+What was Umm Kulthum's nickname?|Star of the East|The Nightingale|El Hadaba|The Leader
+The longest river in the world according to most sources?|The Nile|The Amazon|The Yangtze|The Mississippi
+What is the capital of Spain?|Madrid|Barcelona|Seville|Valencia
+Who is famously credited with inventing the telephone?|Graham Bell|Edison|Tesla|Marconi
+How many handball players per team are on court?|7|6|5|11
+Which element has the symbol O?|Oxygen|Gold|Osmium|Ozone
+Who was Egypt's first president?|Mohamed Naguib|Gamal Abdel Nasser|Anwar Sadat|Saad Zaghloul
+What year did the new Library of Alexandria open?|2002|1995|2010|1988
+The tallest animal in the world?|Giraffe|Elephant|Camel|Ostrich
+What is the capital of Germany?|Berlin|Munich|Hamburg|Frankfurt
+Who painted "The Starry Night"?|Van Gogh|Picasso|Monet|Dalí
+Roughly how long does sunlight take to reach Earth?|8 minutes|8 seconds|An hour|A day
+The highest mountain in Africa?|Kilimanjaro|Mount Kenya|Atlas Mountains|Mount Catherine
+The first Arab country to host the World Cup?|Qatar|Morocco|Saudi Arabia|Egypt
+`));
+QUIZ[2].push(...LP(`
+عاصمة الأرجنتين؟|بوينس آيرس|سانتياجو|ليما|مونتيفيديو
+أصلب مادة طبيعية؟|الألماس|الحديد|الجرانيت|الكوارتز
+مين كتب «ملحمة الحرافيش»؟|نجيب محفوظ|بهاء طاهر|جمال الغيطاني|يوسف السباعي
+وحدة قياس القوة؟|النيوتن|الجول|الوات|الباسكال
+ابن بطوطة كان مشهور بإيه؟|الرحلات|الطب|الفلك|الشعر
+العاصمة الإدارية لجنوب إفريقيا؟|بريتوريا|كيب تاون|جوهانسبرج|ديربان
+مين اكتشف البنسلين؟|ألكسندر فليمنج|لويس باستير|ماري كوري|إدوارد جينر
+أطول نهر في آسيا؟|اليانغتسي|الجانج|الميكونج|الفرات
+دار الأوبرا الخديوية في القاهرة اتفتحت سنة كام؟|1869|1900|1952|1820
+قلعة قايتباي في أنهي مدينة؟|الإسكندرية|القاهرة|رشيد|دمياط
+الرقم الذري للكربون؟|6|12|8|14
+عاصمة كوريا الجنوبية؟|سول|بوسان|بيونج يانج|إنتشون
+أقدم جامع في مصر وإفريقيا؟|جامع عمرو بن العاص|الجامع الأزهر|جامع ابن طولون|جامع الحسين
+الأرض بتلف حوالين نفسها مرة كل قد إيه تقريبًا؟|24 ساعة|12 ساعة|سنة|أسبوع
+معبد الكرنك في أنهي مدينة؟|الأقصر|أسوان|إدفو|أبيدوس
+`));
+EN.QUIZ[2].push(...LP(`
+What is the capital of Argentina?|Buenos Aires|Santiago|Lima|Montevideo
+The hardest natural material?|Diamond|Iron|Granite|Quartz
+Who wrote "The Harafish"?|Naguib Mahfouz|Bahaa Taher|Gamal El-Ghitani|Youssef El-Sebai
+The unit of force?|Newton|Joule|Watt|Pascal
+Ibn Battuta is famous for?|Travels|Medicine|Astronomy|Poetry
+South Africa's administrative capital?|Pretoria|Cape Town|Johannesburg|Durban
+Who discovered penicillin?|Alexander Fleming|Louis Pasteur|Marie Curie|Edward Jenner
+The longest river in Asia?|Yangtze|Ganges|Mekong|Euphrates
+What year did Cairo's Khedivial Opera House open?|1869|1900|1952|1820
+Which city is the Citadel of Qaitbay in?|Alexandria|Cairo|Rosetta|Damietta
+The atomic number of carbon?|6|12|8|14
+What is the capital of South Korea?|Seoul|Busan|Pyongyang|Incheon
+The oldest mosque in Egypt and Africa?|Mosque of Amr ibn al-As|Al-Azhar Mosque|Ibn Tulun Mosque|Al-Hussein Mosque
+Roughly how long does Earth take to spin once?|24 hours|12 hours|A year|A week
+Which city is Karnak Temple in?|Luxor|Aswan|Edfu|Abydos
+`));
+
+SPY.push({n:'فواكه',w:L(`تفاح
+موز
+برتقال
+عنب
+فراولة
+مانجا
+بطيخ
+خوخ
+مشمش
+تين
+رمان
+جوافة
+كمثرى
+كيوي
+يوسفي`)},{n:'آلات موسيقية',w:L(`عود
+طبلة
+كمنجة
+بيانو
+جيتار
+ناي
+قانون
+رق
+درامز
+ساكسفون
+ترومبيت
+فلوت
+أكورديون
+هارب
+مزمار`)});
+EN.SPY.push({n:'Fruits',w:L(`Apple
+Banana
+Orange
+Grapes
+Strawberry
+Mango
+Watermelon
+Peach
+Apricot
+Fig
+Pomegranate
+Guava
+Pear
+Kiwi
+Tangerine`)},{n:'Musical instruments',w:L(`Oud
+Darbuka
+Violin
+Piano
+Guitar
+Ney
+Qanun
+Riq
+Drums
+Saxophone
+Trumpet
+Flute
+Accordion
+Harp
+Mizmar`)});
+
+PROV.ar.push(...LP(`
+اللي يعيش|ياما يشوف|يتعب|يكسب|ينسى
+الدنيا|دوّارة|حلوة|صعبة|واسعة
+اللي إيده في المية|مش زي اللي إيده في النار|بردان|نضيف|مرتاح
+اطبخي يا جارية|كلّف يا سيدي|نضّفي يا جارية|اغسلي يا جارية|نامي يا جارية
+يا بخت|من بات مغلوب ولا بات غالب|من نام بدري|من كان غني|من سافر
+اتلم المتعوس|على خايب الرجا|على الغني|على اللي بيحبه|على الكداب
+اللي ما يشوفش من الغربال|يبقى أعمى|يبقى نايم|يبقى بعيد|يبقى زعلان
+القرش الأبيض|ينفع في اليوم الإسود|يضيع بسرعة|يتصرف بسرعة|ميكفيش
+ما يقع|إلا الشاطر|إلا الكسلان|إلا التعبان|إلا الضعيف
+كل تأخيرة|وفيها خيرة|وفيها ندم|وفيها زعل|وفيها تعب
+اللي خلّف|ما ماتش|تعب|ارتاح|اتبسط
+اللي ما يعرفك|يجهلك|يحبك|يكرهك|ينساك
+الضرب في الميت|حرام|سهل|مالوش لازمة|عيب
+عشم إبليس|في الجنة|في الدنيا|في الناس|في الفلوس
+ابعد عن الشر|وغنّيله|واهرب منه|وسيبه|واستخبى
+إيش تعمل الماشطة|في الوش العكر|في الشعر الطويل|في العروسة الحلوة|في الفرح
+`));
+PROV.en.push(...LP(`
+Every dog|has its day|has a bone|barks twice|needs a home
+Fortune favors|the bold|the rich|the patient|the young
+Haste|makes waste|saves time|is wise|wins races
+It takes two|to tango|to argue|to win|to talk
+Lightning never|strikes twice|stops|sleeps|lies
+Too many cooks|spoil the broth|need a kitchen|cook faster|make dinner
+You can't have your cake|and eat it too|without a fork|every day|before dinner
+When it rains|it pours|it's cold|we stay home|it's wet
+Blood is|thicker than water|always red|warm|life
+The best things in life|are free|are expensive|take time|are rare
+Better safe|than sorry|than late|than rich|than fast
+Beauty is|in the eye of the beholder|only skin deep|everywhere|expensive
+`));
+
+HERD.ar.push(...L(`
+حاجة بتلاقيها على البحر
+اسم مسلسل مصري
+حاجة بتاكلها في الفطار
+لون عربية
+مكان بتذاكر فيه
+حاجة بتعملها على الموبايل قبل النوم
+حاجة في الفصل
+اسم نادي كورة
+أكلة فيها رز
+حاجة بتشتريها من الصيدلية
+حاجة بتتباع في الشارع
+اسم مشهور لكلب
+حاجة بتعملها في العيد
+فاكهة صيفي
+حاجة مدوّرة
+حاجة على المكتب
+أكلة شارع
+حاجة بتلبسها في الصيف
+حيوان في المزرعة
+حاجة بتضحّكك
+`));
+HERD.en.push(...L(`
+Something you find at the beach
+An Egyptian TV series
+Something you eat for breakfast
+A car color
+A place to study
+Something you do on your phone before bed
+Something in a classroom
+A football club
+A dish with rice
+Something you buy at the pharmacy
+Something sold on the street
+A common dog name
+Something you do on Eid
+A summer fruit
+Something round
+Something on a desk
+A street food
+Something you wear in summer
+A farm animal
+Something that makes you laugh
+`));
+
+EST.ar.push(...LP(`
+جامعة الدول العربية فيها كام دولة؟|22
+برج القاهرة اتفتح سنة كام؟|1961
+ماتش الكورة بيبدأ بكام لاعب في الملعب من الفريقين مع بعض؟|22
+قلعة صلاح الدين اتبنت في القرن كام الميلادي؟|12
+مصر لعبت أول كأس عالم ليها سنة كام؟|1934
+درجة حرارة جسم الإنسان الطبيعية كام درجة مئوية تقريبًا؟|37
+اليوم فيه كام ثانية؟|86400
+نجيب محفوظ عاش كام سنة؟|94
+الفيل الإفريقي الكبير ممكن يوزن كام طن تقريبًا؟|6
+جريدة الأهرام اتأسست سنة كام؟|1875
+كأس العالم 2026 فيه كام منتخب؟|48
+خندق ماريانا عمقه كام متر تقريبًا؟|10935
+الزرافة ممكن يوصل طولها كام متر تقريبًا؟|5.5
+`));
+EST.en.push(...LP(`
+How many member states are in the Arab League?|22
+What year did the Cairo Tower open?|1961
+How many players start a football match, both teams together?|22
+In which century AD was the Citadel of Saladin built?|12
+What year did Egypt play its first World Cup?|1934
+Normal human body temperature in °C, roughly?|37
+How many seconds are in a day?|86400
+How many years did Naguib Mahfouz live?|94
+Roughly how many tons can a large African elephant weigh?|6
+What year was Al-Ahram newspaper founded?|1875
+How many teams play in the 2026 World Cup?|48
+Depth of the Mariana Trench in meters, roughly?|10935
+Roughly how tall in meters can a giraffe get?|5.5
+`));
+
 'use strict';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -3645,6 +5127,109 @@ G.wk={e:'📝',cat:0,min:3,lv:'N',R:6,Rmax:20,
 };
 
 
+/* ===== Solo games: one player, no room, no host ===== */
+const SOLO={};
+const BEST=()=>LS.get('shilla.best',{});
+const bestKey=s=>s.id+(SOLO[s.id].lv?'.'+s.lvl:'');
+function saveBest(k,v){const b=BEST();if(b[k]!=null&&b[k]>=v)return false;b[k]=v;LS.set('shilla.best',b);return true}
+const mcq=(p,opts,tag)=>{const o=shuf(range(opts.length));return{p,tag,o:o.map(i=>opts[i]),a:o.indexOf(0)}};
+const fmtN=v=>Number(v).toLocaleString(EL()?'en-US':'ar-EG');
+const mmss=ms=>{const t=Math.max(0,Math.floor(ms/1000));return (t/60|0)+':'+String(t%60).padStart(2,'0')};
+
+SOLO.qz={e:'🧠',lv:'D',T:15000,
+ n:()=>A('كويز ضد الساعة','Quiz vs the clock'),
+ d:()=>A('10 أسئلة، وكل ما تجاوب أسرع نقطك تزيد','10 questions, faster answers score more'),
+ h:()=>A('عشر أسئلة معلومات عامة ومعاك 15 ثانية لكل سؤال. الإجابة الصح بـ 10 نقط، وكل ثانية فاضلة بنقطة زيادة، ولو جبت 3 صح ورا بعض تاخد بونص.','Ten trivia questions with 15 seconds each. A right answer is 10 points plus one for every second left, and 3 in a row earns a bonus.'),
+ make(s){const Q=B('QUIZ')[s.lvl];return shuf(range(Q.length)).slice(0,10).map(k=>mcq(Q[k][0],Q[k].slice(1),A('سؤال 🧠','Question 🧠')))}};
+
+SOLO.pv={e:'📜',T:15000,
+ n:()=>A('كمّل المثل','Finish the proverb'),
+ d:()=>A('أول المثل قدامك، اختار آخره','Pick the right ending'),
+ h:()=>A('يظهر أول المثل و4 اختيارات لآخره، ومعاك 15 ثانية. كل ما تجاوب أسرع تاخد نقط أكتر.','You see the start of a proverb and 4 endings, with 15 seconds each. Faster answers score more.'),
+ make(){const P=PROV[EL()?'en':'ar'];return shuf(range(P.length)).slice(0,10).map(k=>mcq(P[k][0]+' ...',P[k].slice(1),A('كمّل 📜','Finish it 📜')))}};
+
+SOLO.od={e:'🕵️',T:12000,
+ n:()=>A('الدخيل','Odd one out'),
+ d:()=>A('أربع كلمات، واحدة منهم مش منهم','Four words, one doesn\'t belong'),
+ h:()=>A('كل مرة يظهر 4 كلمات: 3 من نفس الفئة وواحدة دخيلة. اكتشفها في 12 ثانية.','Each round shows 4 words: 3 share a category and one is an intruder. Spot it within 12 seconds.'),
+ make(){const C=B('SPY');return range(10).map(()=>{for(;;){const a=rint(C.length);let b=rint(C.length-1);if(b>=a)b++;const w=shuf(C[a].w).slice(0,3),x=C[b].w[rint(C[b].w.length)];if(C[a].w.some(y=>nAr(y)===nAr(x)))continue;const q=mcq(A('مين الدخيل؟','Which one doesn\'t belong?'),[x,...w],A('الدخيل 🕵️','Odd one out 🕵️'));q.nt=[x,C[b].n,C[a].n];return q}})}};
+
+SOLO.cl={e:'🔍',lv:'D',T:25000,clue:1,
+ n:()=>A('خمّن من الدلايل','Guess from clues'),
+ d:()=>A('دلايل بتظهر واحدة واحدة','Clues appear one at a time'),
+ h:()=>A('فيه كلمة مستخبية وقدامك دليل واحد عنها. تقدر تكشف لحد 4 دلايل، بس كل دليل زيادة بيقلّل نقطك. معاك 25 ثانية.','A hidden word and one clue about it. You can reveal up to 4 clues, but each extra clue costs points. You have 25 seconds.'),
+ make(s){const T=B('TABOO')[s.lvl],ks=shuf(range(T.length));return ks.slice(0,10).map(k=>{const q=mcq(A('الكلمة إيه؟','What\'s the word?'),[T[k][0],...shuf(ks.filter(x=>x!==k)).slice(0,3).map(x=>T[x][0])],A('دلايل 🔍','Clues 🔍'));q.cl=shuf(T[k].slice(1));return q})}};
+
+SOLO.es={e:'🎯',est:1,
+ n:()=>A('الأقرب يكسب','Closest wins'),
+ d:()=>A('خمّن الرقم، وكل ما تقرّب نقطك تزيد','Guess the number, closer scores more'),
+ h:()=>A('8 أسئلة إجابتها رقم. كل سؤال عليه لحد 100 نقطة على حسب انت قريب قد إيه من الإجابة الصح.','8 questions with number answers. Each is worth up to 100 points depending on how close you get.'),
+ make(){return shuf(range(EST.ar.length)).slice(0,8).map(k=>({k}))},
+ pts(k,v){const a=+EST.ar[k][1];if(/^What year/.test(EST.en[k][0]))return Math.max(0,Math.round(100-Math.abs(v-a)*4));if(!(v>0))return 0;return Math.max(0,Math.round(100*(1-Math.abs(Math.log(v/a))/Math.log(3))))}};
+
+SOLO.mm={e:'🃏',lv:'D',mem:1,
+ n:()=>A('الذاكرة','Memory'),
+ d:()=>A('اقلب الكروت ولاقي كل اتنين زي بعض','Flip cards and find the pairs'),
+ h:()=>A('اقلب كارتين في كل محاولة، ولو طلعوا زي بعض بيفضلوا مفتوحين. خلّص كل الأزواج بأقل عدد محاولات وفي أقل وقت.','Flip two cards per move; matching pairs stay open. Clear the board in as few moves and as little time as you can.'),
+ start(s){const P=[6,8,10][s.lvl];const em=shuf(AV).slice(0,P);s.cards=shuf([...em,...em]).map(e=>({e,o:0,d:0}));Object.assign(s,{f:-1,mv:0,t0:0,t1:0,lock:0,pairs:P,nw:-1,qs:null})}};
+
+function soBegin(){const s=App.so,d=SOLO[s.id];Object.assign(s,{i:0,sc:0,ok:0,st:0,bs:0,rec:0,pb:null});if(d.mem){d.start(s);s.ph='q';s.te=0}else{s.qs=d.make(s);soQ()}render(1)}
+function soQ(){const s=App.so,d=SOLO[s.id];s.ph='q';s.pick=null;s.gain=0;s.cn=1;s.te=d.T?Date.now()+d.T:0;s.tf=0}
+function soAnswer(v){const s=App.so;if(!s||s.ph!=='q'||!s.qs)return;const d=SOLO[s.id];let good,gain=0;
+ if(d.est){gain=d.pts(s.qs[s.i].k,v);good=gain>=70}
+ else{good=v===s.qs[s.i].a;if(good){const left=s.te?Math.max(0,Math.ceil((s.te-Date.now())/1000)):0;gain=10+left+(s.st>=2?5:0)+(d.clue?(4-s.cn)*5:0)}}
+ s.st=good?s.st+1:0;s.bs=Math.max(s.bs,s.st);if(good)s.ok++;s.pick=v;s.gain=gain;s.sc+=gain;s.ph='r';s.te=0;
+ SFX.play(good?'ding':'buzz');if(!good)buzz(120);render(1)}
+function soNextQ(){const s=App.so;if(!s||s.ph!=='r')return;s.i++;if(s.i>=s.qs.length)soEnd();else soQ();render(1)}
+function soEnd(){const s=App.so;s.ph='end';s.te=0;const k=bestKey(s);s.pb=BEST()[k];if(s.pb===undefined)s.pb=null;s.rec=saveBest(k,s.sc)?1:0;
+ setTimeout(()=>{SFX.play('win');if(s.rec){SFX.play('cheer');confetti();buzz([60,40,60])}},150)}
+function memFlip(i){const s=App.so;if(!s||s.ph!=='q'||!s.cards||s.lock)return;const c=s.cards[i];if(!c||c.o||c.d)return;
+ if(!s.t0)s.t0=Date.now();c.o=1;s.nw=i;
+ if(s.f<0){s.f=i;render();return}
+ const a=s.cards[s.f];s.f=-1;s.mv++;
+ if(a.e===c.e){a.d=c.d=1;a.o=c.o=0;SFX.play('coin');
+  if(s.cards.every(x=>x.d)){s.t1=Date.now();const sec=Math.round((s.t1-s.t0)/1000);s.sc=Math.max(10,s.pairs*25-(s.mv-s.pairs)*5-Math.floor(sec/2));s.ok=s.pairs;s.lock=1;
+   setTimeout(()=>{if(App.so===s){soEnd();render(1)}},700)}
+  render();return}
+ s.lock=1;render();setTimeout(()=>{a.o=c.o=0;s.lock=0;s.nw=-1;if(App.so===s)render()},850)}
+
+setInterval(()=>{const s=App.so;if(App.mode!=='solo'||!s)return;ticks();
+ if(s.ph==='q'&&s.te&&!s.tf&&Date.now()>=s.te){s.tf=1;soAnswer(-1)}
+ const el=$('#mmt');if(el&&s.t0&&!s.t1)el.textContent=mmss(Date.now()-s.t0)},300);
+
+/* ---------- solo views ---------- */
+function soloMenuV(){const b=BEST();
+ return topV(null)+`<main class="wrap"><section class="su"><div class="sue">🎯</div><h1>${A('العب لوحدك','Play solo')}</h1><p class="how">${A('مفيش حد معاك؟ ولا يهمك. اختار لعبة وحاول تكسر رقمك القياسي.','Nobody around? No problem. Pick a game and try to beat your best.')}</p></section><section class="cat vio"><div class="gg">${Object.entries(SOLO).map(([k,d])=>{const bs=Object.keys(b).filter(x=>x===k||x.startsWith(k+'.')).map(x=>b[x]);return `<button type="button" class="gt" data-u="soPick" data-x="${k}"><span class="ge">${d.e}</span><b>${d.n()}</b><small>${d.d()}</small>${bs.length?`<small class="best">🏆 ${Math.max(...bs)}</small>`:''}</button>`}).join('')}</div></section>${ub(A('رجوع','Back'),'soHome','','ghost sm')}</main>`}
+
+function soHead(s){return `<div class="tb"><small>${A('سؤال ','Question ')+ofN(s.i+1,s.qs.length)}</small><small>⭐ <b class="scn">${s.sc}</b>${s.st>=2?` · 🔥 ${s.st}`:''}</small></div>`}
+const soNextBtn=s=>ub(s.i+1>=s.qs.length?A('النتيجة 🏁','Results 🏁'):A('التالي ⬅','Next ➡'),'soNext','','pri');
+
+function mcqV(s,d){const q=s.qs[s.i],R=s.ph==='r';
+ const clue=d.clue?`<div class="clues">${q.cl.slice(0,R?4:s.cn).map(c=>`<span>${esc(c)}</span>`).join('')}</div>`:'';
+ const h=soHead(s)+card(q.tag,q.p,d.clue?'cyan':'orng',clue);
+ if(!R)return h+tmr(s)+(d.clue&&s.cn<4?ub(A('دليل كمان 🔍 (−5)','Another clue 🔍 (−5)'),'soClue','','ghost sm'):'')+`<div class="opts">${q.o.map((o,i)=>ub(`<em>${ABCD(i)}</em><span>${esc(o)}</span>`,'soAns',i,'opt')).join('')}</div>`;
+ const good=s.pick===q.a;
+ return h+`<div class="rv"><h3>${good?`✅ ${A('صح!','Correct!')} <b class="w">+${s.gain}</b>`:s.pick<0?`⏰ ${A('الوقت خلص','Time\'s up')}`:`❌ ${A('غلط','Wrong')}`}</h3>${q.nt?`<p>«${esc(q.nt[0])}» ${A('من فئة','is from')} ${esc(q.nt[1])}${A('، والباقيين',', the rest are')} ${esc(q.nt[2])}</p>`:''}</div><div class="opts ro">${q.o.map((o,i)=>`<div class="optr${i===q.a?' top':''}${i===s.pick&&i!==q.a?' no':''}"><em>${i===q.a?'✓':i===s.pick?'✗':ABCD(i)}</em><span>${esc(o)}</span></div>`).join('')}</div>`+soNextBtn(s)}
+
+function estV(s){const k=s.qs[s.i].k,Q=(EL()?EST.en:EST.ar)[k];const h=soHead(s)+card(A('خمّن 🎯','Guess 🎯'),Q[0],'orng');
+ if(s.ph==='q')return h+`<div class="form"><input id="soe${s.i}" inputmode="decimal" autocomplete="off" dir="ltr" placeholder="${A('اكتب رقم','Type a number')}"></div>`+ub(A('ابعت 📨','Send 📨'),'soEst','','pri');
+ const c=s.gain>=70?'var(--ok)':s.gain>=40?'var(--sun)':'var(--bad)';
+ return h+`<div class="rv"><h3>${A('الإجابة: ','Answer: ')}<b class="w">${fmtN(Q[1])}</b></h3><p>${A('تخمينك: ','Your guess: ')}<b>${fmtN(s.pick)}</b></p><div class="bars">${bar(A('قربك','Closeness'),s.gain,100,c)}</div></div>`+soNextBtn(s)}
+
+function memV(s){const sec=s.t0?(s.t1||Date.now())-s.t0:0,done=s.cards.filter(c=>c.d).length/2;
+ return `<div class="tb"><small>${A('محاولات: ','Moves: ')}<b>${s.mv}</b> · ${A('أزواج: ','Pairs: ')}<b>${done}/${s.pairs}</b></small><small>⏱ <b id="mmt">${mmss(sec)}</b></small></div><div class="mem">${s.cards.map((c,i)=>`<button type="button" class="mc${c.o?' up':''}${c.d?' dn':''}${i===s.nw&&c.o?' nw':''}" data-u="soFlip" data-x="${i}"${c.d?' disabled':''} aria-label="${A('كارت ','Card ')}${i+1}">${c.o||c.d?c.e:''}</button>`).join('')}</div>${s.t0?'':`<p class="hint">${A('دوس على أي كارت علشان تبدأ','Tap any card to start')}</p>`}`}
+
+function soEndV(s,d){const st=d.mem?`<span>${A('محاولات','Moves')} <b>${s.mv}</b></span><span>⏱ <b>${mmss(s.t1-s.t0)}</b></span>`:`<span>${A('صح','Correct')} <b>${s.ok}/${s.qs.length}</b></span><span>🔥 ${A('أطول سلسلة','Best streak')} <b>${s.bs}</b></span>`;
+ const pb=s.rec?(s.pb!=null?`<p class="note">${A('رقمك اللي فات كان ','Your previous best was ')}${s.pb}</p>`:''):`<p class="note">🏆 ${A('أحسن نتيجة ليك: ','Your best: ')}${s.pb}</p>`;
+ return `<section class="res"><div class="sue">${s.rec?'🏆':d.e}</div><h1>${s.rec?A('رقم قياسي جديد!','New record!'):A('خلصت!','Finished!')}</h1><div class="bigsc">⭐ ${s.sc}</div><div class="stats">${st}</div>${pb}${ub(A('العب تاني 🔁','Play again 🔁'),'soGo','','pri xl')}${ub(A('ألعاب تانية','Other games'),'soMenu','','ghost sm')}</section>`}
+
+function soloV(){const s=App.so;if(!s)return soloMenuV();const d=SOLO[s.id],L=d.lv?LVD():null;
+ if(s.ph==='su'){const bv=BEST()[bestKey(s)];return topV(null)+`<main class="wrap"><section class="su"><div class="sue">${d.e}</div><h1>${d.n()}</h1><p class="how">${d.h()}</p>${L?`<h3>${A('المستوى','Level')}</h3><div class="lv">${L.map((l,i)=>ub(`${l[1]} ${l[0]}`,'soLvl',i,s.lvl===i?'on':'ghost')).join('')}</div>`:''}${bv!=null?`<p class="note">🏆 ${A('أحسن نتيجة ليك: ','Your best: ')}${bv}</p>`:''}${ub(A('يلا نبدأ 🚀','Start 🚀'),'soGo','','pri xl')}${ub(A('رجوع','Back'),'soMenu','','ghost sm')}</section></main>`}
+ const gh=`<div class="gh cat-vio"><span>${d.e}</span><b>${d.n()}</b>${L?`<i>${L[s.lvl][1]} ${L[s.lvl][0]}</i>`:''}</div>`;
+ const body=s.ph==='end'?soEndV(s,d):d.mem?memV(s):d.est?estV(s):mcqV(s,d);
+ return topV(null)+`<main class="wrap">${s.ph==='end'?'':gh}${body}</main>`}
+
+
 /* ---------- state + actions ---------- */
 function newS(pl){return{v:0,hNow:Date.now(),pl,sc:Object.fromEntries(pl.map(p=>[p.id,0])),scr:'menu',su:null,g:null,res:null,wh:null,nx:1,tmOn:false,ts:[0,0]}}
 const inGame=S=>!['menu','su','res','wh'].includes(S.scr);
@@ -3749,7 +5334,7 @@ function startPeer(asHost,restore){const code=App.code;const peer=asHost?new Pee
   if(t==='network'||t==='server-error'||t==='socket-error'||t==='socket-closed'){if(!App.S){clearTimeout(NET.fail);ui.err=1;render(1)}else{toast(A('النت فصل لحظة... بنحاول نرجّع الاتصال','Connection dropped... reconnecting'));if(!App.host)scheduleRetry()}}
   else console.warn(e)})}
 
-function enterRoom(code,asHost,restore){if(typeof Peer!=='function'){toast(A('مقدرناش نحمّل الاتصال، اتأكد من النت','Couldn\'t load the connection, check your internet'));return}
+function enterRoom(code,asHost,restore){if(!navigator.onLine){toast(A('الأوض محتاجة نت 📡 جرّب «موبايل واحد» أو «لوحدك»','Rooms need internet 📡 try One phone or Solo'));return}if(typeof Peer!=='function'){toast(A('مقدرناش نحمّل الاتصال، اتأكد من النت','Couldn\'t load the connection, check your internet'));return}
  if(NET.peer)try{NET.peer.destroy()}catch(e){}NET.conns.clear();NET.hc=null;NET.retry=0;clearTimeout(NET.rt);NET.rt=null;
  App.page='wait';App.code=code;ui.nf=0;ui.err=0;ui.rest=restore?1:0;render(1);
  clearTimeout(NET.fail);NET.fail=setTimeout(()=>{if(App.page==='wait'&&!App.S&&!restore){ui.err=1;render(1)}},15000);
@@ -3766,8 +5351,10 @@ function topV(X){return `<header class="top"><span class="logo">${A('الشلّ�
 function homeV(){const saved=LS.get('shilla.local',null);const n=Object.keys(G).length;return topV(null)+`<main class="wrap home">
 <section class="hero"><div class="floaters" aria-hidden="true">${['🎭','💣','🐺','🎨','🕵️','🎡','😳','🔥','🧠','🙋'].map((e,i)=>`<span style="--i:${i}">${e}</span>`).join('')}</div><div class="dice" aria-hidden="true"><span>🎲</span><span>🃏</span><span>🎯</span></div><h1 class="brand">${A('الشلّة','Shilla')}</h1><p class="tagl">${A(`${n} لعبة للقعدة: صراحة، تصويت، جاسوس، مافيا، رسم، وكويز.`,`${n} party games: truth, voting, spies, mafia, drawing, and trivia.`)}</p></section>
 <div class="modes"><article class="mode pink"><span class="mi">📱</span><h2>${A('موبايل واحد','One phone')}</h2><p>${A('تكتبوا أساميكم والموبايل يلف عليكم.','Add your names and pass the phone around.')}</p>${ub(A('يلا بينا','Let\'s go'),'go','lsetup','pri')}${saved&&saved.pl?ub(A('كمّل السهرة اللي فاتت','Continue last night'),'resume','','ghost sm'):''}</article>
-<article class="mode cyan"><span class="mi">📲</span><h2>${A('أوضة بكود','Room with a code')}</h2><p>${A('كل واحد يدخل من موبايله، لحد 20 لاعب.','Everyone joins from their own phone, up to 20 players.')}</p>${App.roomOK===false?`<p class="warn">${A('الأوض محتاجة نت. اتأكد إنك متوصّل وحدّث الصفحة.','Rooms need internet. Check your connection and refresh.')}</p>`:`<div class="row">${ub(A('اعمل أوضة','Create room'),'go','rmk','pri')}${ub(A('ادخل بكود','Join with code'),'go','rjn','ghost')}</div>`}</article></div>
-<section class="cats">${CATS().map((c,i)=>`<div class="cl ${c.c}"><b>${c.n}</b><span>${Object.values(G).filter(d=>d.cat===i).map(d=>d.e+' '+d.n()).join(' · ')}</span></div>`).join('')}</section></main>`}
+<article class="mode cyan"><span class="mi">📲</span><h2>${A('أوضة بكود','Room with a code')}</h2><p>${A('كل واحد يدخل من موبايله، لحد 20 لاعب.','Everyone joins from their own phone, up to 20 players.')}</p>${!navigator.onLine?`<p class="warn">📡 ${A('انت مش متوصل بالنت دلوقتي. الأوض محتاجة نت، بس «موبايل واحد» و«لوحدك» شغالين عادي.','You\'re offline. Rooms need internet, but One phone and Solo work fine.')}</p>`:App.roomOK===false?`<p class="warn">${A('الأوض محتاجة نت. اتأكد إنك متوصّل وحدّث الصفحة.','Rooms need internet. Check your connection and refresh.')}</p>`:`<div class="row">${ub(A('اعمل أوضة','Create room'),'go','rmk','pri')}${ub(A('ادخل بكود','Join with code'),'go','rjn','ghost')}</div>`}</article>
+<article class="mode vio solo"><span class="mi">🎯</span><h2>${A('لوحدك','Solo')}</h2><p>${A(`مفيش حد معاك؟ ${Object.keys(SOLO).length} ألعاب تلعبها لوحدك وتكسر فيها رقمك القياسي.`,`Nobody around? ${Object.keys(SOLO).length} games to play alone and beat your best score.`)}</p>${ub(A('العب لوحدك','Play solo'),'solo','','pri')}</article></div>
+${INST.ev?`<div class="inst">${ub(A('📲 ثبّت الشلّة على موبايلك وتشتغل من غير نت','📲 Install Shilla, it works offline'),'install','','ghost')}</div>`:''}
+<section class="cats">${CATS().map((c,i)=>`<div class="cl ${c.c}"><b>${c.n}</b><span>${Object.values(G).filter(d=>d.cat===i).map(d=>d.e+' '+d.n()).join(' · ')}</span></div>`).join('')}<div class="cl vio"><b>${A('لوحدك','Solo')}</b><span>${Object.values(SOLO).map(d=>d.e+' '+d.n()).join(' · ')}</span></div></section></main>`}
 
 function lsV(){const sv=LS.get('shilla.lp',[]);if(!ui.lv)ui.lv=sv.length?sv.slice():['','',''];const n=Math.max(2,ui.lv.length);
  return topV(null)+`<main class="wrap"><section class="su"><h1>${A('مين هيلعب؟','Who\'s playing?')}</h1><p class="how">${A('من 2 لـ 20 لاعب.','2 to 20 players.')}</p><div class="form">${range(n).map(i=>`<label class="fl2"><span>${i+1}</span><input id="ln${i}" maxlength="14" autocomplete="off" placeholder="${A('اسم اللاعب','Player name')}" value="${esc(ui.lv[i]||'')}">${n>2?`<button type="button" class="x" data-u="lrm" data-x="${i}" aria-label="${A('شيل اللاعب','Remove')}">✕</button>`:''}</label>`).join('')}</div>${n<MAXP?ub(A('+ لاعب كمان','+ Add player'),'ladd','','ghost'):''}${ub(A('يلا نبدأ 🎉','Start 🎉'),'lstart','','pri xl')}${ub(A('رجوع','Back'),'go','home','ghost sm')}</section></main>`}
@@ -3801,8 +5388,9 @@ function lbV(X){const S=App.S,rows=S.pl.slice().sort((a,b)=>(S.sc[b.id]||0)-(S.s
  return `<div class="ov"><button type="button" class="ovbg" data-u="lb" aria-label="${A('قفل','Close')}"></button><div class="ovc" role="dialog" aria-label="${A('ترتيب السهرة','Leaderboard')}"><h2>🏆 ${A('ترتيب السهرة','Tonight\'s leaderboard')}</h2>${S.tmOn?`<div class="tres">${[0,1].map(t=>`<div class="team t${t}"><h4>${tName(t)}</h4><b>${S.ts[t]}</b><small>${A('لعبة كسبها','games won')}</small></div>`).join('')}</div>`:''}<ol class="rk">${rows.map((p,i)=>`<li class="${i===0&&(S.sc[p.id]||0)>0?'w':''}"><span class="pos">${i+1}</span>${chip(p.id)}<b>${S.sc[p.id]||0}</b></li>`).join('')}</ol><p class="note">${A('الأول في أي لعبة +3، التاني +2، التالت +1','1st in any game +3, 2nd +2, 3rd +1')}</p><div class="row">${X.C?(ui.rs?btn(A('أيوه صفّر 🗑️','Yes, reset 🗑️'),{t:'rstsc'},'bad sm'):ub(A('صفّر النقط','Reset points'),'rs','','ghost sm')):''}${ub(A('قفل','Close'),'lb','','ghost sm')}</div></div></div>`}
 
 function view(){const S=App.S;
- const key=App.page+'|'+App.mode+'|'+(S?S.scr+'|'+(S.g?[S.g.id,S.g.ph,S.g.n,S.g.t,S.g.day].join(','):''):'');
+ const key=App.page+'|'+App.mode+'|'+(S?S.scr+'|'+(S.g?[S.g.id,S.g.ph,S.g.n,S.g.t,S.g.day].join(','):''):'')+(App.so?'|'+[App.so.id,App.so.ph,App.so.i].join(','):'');
  if(key!==uiKey){ui={lb:ui.lb,lv:ui.lv,nf:ui.nf,err:ui.err,rest:ui.rest};uiKey=key;App.anim=1}
+ if(App.mode==='solo')return soloV();
  if(!App.mode||!S){if(App.page==='lsetup')return lsV();if(App.page==='rmk')return rmkV();if(App.page==='rjn')return rjnV();if(App.page==='wait'||App.mode==='room')return waitV();return homeV()}
  App.me=App.mode==='room'?(App.host?'p0':((S.pl.find(p=>p.pr===App.myPeer)||{}).id||null)):null;
  const X={S,L:App.mode==='local',C:App.mode==='local'||App.host,me:App.me};
@@ -3865,6 +5453,18 @@ function initCanvas(){const cv=$('#cv');if(!cv||cv._i)return;cv._i=1;const r=cv.
 const readLn=()=>{const out=[];for(let i=0;i<MAXP;i++){const el=document.getElementById('ln'+i);if(!el)break;out.push(el.value)}return out};
 const val=id=>($('#'+id)||{}).value;
 const UI={
+ install(){const ev=INST.ev;if(!ev)return;INST.ev=null;ev.prompt();(ev.userChoice||Promise.resolve()).then(()=>render(1))},
+ solo(){App.mode='solo';App.so=null;ui={};render(1)},
+ soHome(){App.mode=null;App.so=null;App.page='home';ui={};render(1)},
+ soMenu(){App.so=null;render(1)},
+ soPick(x){const d=SOLO[x];if(!d)return;App.so={id:x,ph:'su',lvl:d.lv?1:0};render(1)},
+ soLvl(x){if(App.so&&App.so.ph==='su'){App.so.lvl=+x;render()}},
+ soGo(){if(App.so)soBegin()},
+ soAns(x){soAnswer(+x)},
+ soClue(){const s=App.so;if(s&&s.ph==='q'&&s.cn<4){s.cn++;SFX.play('pop');render()}},
+ soNext(){soNextQ()},
+ soEst(){const s=App.so;if(!s||s.ph!=='q')return;const raw=String(val('soe'+s.i)||'').replace(/[٠-٩]/g,d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d)).replace(/[,،\s]/g,'').replace('٫','.');const v=parseFloat(raw);if(!isFinite(v))return toast(A('اكتب رقم','Type a number'));soAnswer(v)},
+ soFlip(x){memFlip(+x)},
  go(x){App.page=x;ui.lv=null;render(1)},
  ladd(){ui.lv=readLn();if(ui.lv.length<MAXP)ui.lv.push('');render(1,1);const el=document.getElementById('ln'+(ui.lv.length-1));if(el)el.focus()},
  lrm(x){ui.lv=readLn();ui.lv.splice(+x,1);while(ui.lv.length<2)ui.lv.push('');render(1,1)},
@@ -3890,7 +5490,7 @@ const UI={
  eg(){ui.eg=1;render()},
  lang(){App.lang=EL()?'ar':'en';LS.set('shilla.lang',App.lang);applyLang();render(1)},
  mute(){App.mute=!App.mute;LS.set('shilla.mute',App.mute);if(!App.mute)SFX.play('pop');render(1)},
- exit(){if(!ui.ex){ui.ex=1;render();setTimeout(()=>{if(ui.ex){ui.ex=0;render()}},3000);return}leave()},
+ exit(){if(App.mode==='solo'){UI.soHome();return}if(!ui.ex){ui.ex=1;render();setTimeout(()=>{if(ui.ex){ui.ex=0;render()}},3000);return}leave()},
  exit2(){leave()},
  padd(){const v=clean(val('pn'),60);if(!v)return toast(A('اكتب العقاب الأول','Write the punishment first'));App.pun.push(v);App.pun=App.pun.slice(-15);LS.set('shilla.pun',App.pun);render(1,1);toast(A('اتضاف للعجلة ✓','Added to the wheel ✓'))},
  pdel(x){App.pun.splice(+x,1);LS.set('shilla.pun',App.pun);render(1)},
@@ -3900,7 +5500,15 @@ const UI={
 
 document.addEventListener('click',e=>{SFX.init();const j=e.target.closest('[data-j]');if(j&&!j.disabled){let a;try{a=JSON.parse(j.dataset.j)}catch(_){return}dispatch(a);return}
  const u=e.target.closest('[data-u]');if(u&&!u.disabled&&UI[u.dataset.u]){SFX.play('tap');UI[u.dataset.u](u.dataset.x,u)}});
-document.addEventListener('keydown',e=>{if(e.key!=='Enter'||!e.target.id)return;const id=e.target.id;if(id==='pn')UI.padd();else if(id==='rc'||(id==='rn'&&App.page==='rjn'))UI.rjn();else if(id==='rn')UI.rmk();else if(id==='hma'&&App.me!==undefined)UI.hmsub(App.mode==='local'?((App.S.g.c.need.find(i=>!(i in App.S.g.c.got)))):App.me);else if(id==='esa')UI.essub(App.mode==='local'?((App.S.g.c.need.find(i=>!(i in App.S.g.c.got)))):App.me)});
+document.addEventListener('keydown',e=>{if(e.key!=='Enter'||!e.target.id)return;const id=e.target.id;if(id.startsWith('soe'))UI.soEst();else if(id==='pn')UI.padd();else if(id==='rc'||(id==='rn'&&App.page==='rjn'))UI.rjn();else if(id==='rn')UI.rmk();else if(id==='hma'&&App.me!==undefined)UI.hmsub(App.mode==='local'?((App.S.g.c.need.find(i=>!(i in App.S.g.c.got)))):App.me);else if(id==='esa')UI.essub(App.mode==='local'?((App.S.g.c.need.find(i=>!(i in App.S.g.c.got)))):App.me)});
+
+/* ---------- offline: service worker + install ---------- */
+const INST={ev:null};
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();INST.ev=e;if(!App.mode)render(1)});
+window.addEventListener('appinstalled',()=>{INST.ev=null;toast(A('اتثبتت ✓ تقدر تفتحها من الشاشة الرئيسية','Installed ✓ open it from your home screen'));render(1)});
+window.addEventListener('online',()=>render(1));
+window.addEventListener('offline',()=>{render(1);if(App.mode!=='room')toast(A('النت فصل، بس تقدر تكمّل لعب عادي 👌','You\'re offline, but you can keep playing 👌'))});
+if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost')){try{navigator.serviceWorker.register('sw.js').then(r=>{if(!LS.get('shilla.offok',false)){const done=()=>{LS.set('shilla.offok',true);toast(A('الموقع اتحفظ على موبايلك ✓ هيشتغل من غير نت','Saved on your phone ✓ it now works offline'))};const w=r.installing||r.waiting;if(r.active&&!w)LS.set('shilla.offok',true);else if(w)w.addEventListener('statechange',()=>{if(w.state==='activated')done()})}}).catch(()=>{})}catch(e){}}
 
 /* ---------- boot: join links + rejoin after refresh ---------- */
 {const r=(new URLSearchParams(location.search).get('r')||'').toUpperCase();

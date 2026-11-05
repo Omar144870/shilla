@@ -4,8 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>الشلّة</title>
-<meta name="description" content="21 لعبة للقعدة بالعامية المصري وبالإنجليزي: صراحة ولا جرأة، مين فينا، برا السالفة، المافيا، ليلة الديب، ارسم وخمّن وكويز. لحد 20 لاعب.">
+<meta name="description" content="21 لعبة للقعدة و6 ألعاب تلعبها لوحدك، بالعامية المصري وبالإنجليزي: صراحة ولا جرأة، مين فينا، برا السالفة، المافيا، ارسم وخمّن، كويز ضد الساعة والذاكرة.">
 <meta name="theme-color" content="#130e26">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="الشلّة">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta property="og:title" content="الشلّة 🎲">
 <meta property="og:description" content="تعالى العب معانا! 21 لعبة للقعدة، كل واحد من موبايله.">
 <meta property="og:type" content="website">
@@ -332,12 +338,33 @@ button.optr{font:inherit;color:inherit;border:0;text-align:start;cursor:pointer;
 .tmr.low b{animation:pulse .5s infinite}
 .wb .chips .pc{transition:transform .2s}
 section.cat{background:none;box-shadow:none;color:inherit;min-height:0;padding:0}
+/* v4: solo games */
+.mode.vio,.cl.vio,section.cat.vio,.gh.cat-vio{--k:var(--vio)}
+.mode.solo{grid-column:1/-1}
+.optr.no{box-shadow:inset 0 0 0 2px var(--bad);background:rgba(255,90,106,.12)}
+.optr.no em{color:var(--bad)}
+.clues{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:12px}
+.clues span{background:#d6f6f2;color:#0d6159;border-radius:8px;padding:2px 12px;font-weight:600;animation:rise .35s cubic-bezier(.2,.8,.2,1) both}
+.gt .best{color:var(--sun);font-weight:600;margin-top:4px}
+.bigsc{font:400 clamp(3.2rem,16vw,4.4rem)/1.1 var(--fd);color:var(--sun);text-shadow:4px 4px 0 var(--pink)}
+.stats{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.stats span{background:var(--s1);border-radius:12px;padding:6px 14px;color:var(--mu)}
+.stats b{color:var(--tx);font-variant-numeric:tabular-nums}
+.scn{color:var(--sun);font-variant-numeric:tabular-nums}
+.mem{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.mc{aspect-ratio:1;border:0;border-radius:14px;cursor:pointer;padding:0;font-size:clamp(1.6rem,9vw,2.5rem);line-height:1;background:repeating-linear-gradient(45deg,var(--s2) 0 8px,var(--s3) 8px 16px);box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--vio) 35%,transparent),0 4px 0 rgba(0,0,0,.4);-webkit-tap-highlight-color:transparent}
+.mc.up{background:var(--paper);box-shadow:inset 0 0 0 3px var(--vio),0 4px 0 rgba(0,0,0,.4)}
+.mc.nw{animation:mflip .28s ease both}
+.mc.dn{background:color-mix(in srgb,var(--ok) 35%,var(--paper));box-shadow:none;cursor:default;opacity:.9}
+.mc:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+@keyframes mflip{from{transform:rotateY(90deg)}to{transform:none}}
+.inst{display:flex;justify-content:center}
 </style>
 </head>
 <body>
 <div id="app"></div>
 <div id="toast" role="status" aria-live="polite"></div>
 <script src="peerjs.min.js"></script>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=5"></script>
 </body>
 </html>
